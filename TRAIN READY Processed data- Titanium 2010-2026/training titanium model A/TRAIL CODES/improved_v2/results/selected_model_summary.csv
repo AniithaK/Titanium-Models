@@ -1,0 +1,7 @@
+hs_code,horizon_months,validation_selected_model,validation_mean_pinball_loss,test_p05_p95_coverage,test_mean_interval_score,baseline_mean_interval_score,test_mis_ratio_to_baseline,test_median_mae_log_change,coverage_recovery_by_2022_08,passes_spec_h3_h6,recommendation
+810820,3,adaptive_no_change,0.041875345860214616,1.0,0.6685571823106616,0.629106681016739,1.0627087622566083,0.10749840928739132,True,False,research only - acceptance criteria not met
+810820,6,adaptive_no_change,0.04631190802752157,1.0,0.7045584290655408,0.6592090506043478,1.0687936223260555,0.1324322774553913,True,False,research only - acceptance criteria not met
+810820,12,gradient_boosting_quantile,0.04715510006768305,0.9130434782608695,0.7887936885556265,0.8551396804167392,0.9224150236733489,0.1576711370253094,False,False,research only - acceptance criteria not met
+810890,3,adaptive_no_change,0.09216851214954634,0.9565217391304348,1.440010812468983,1.4502831245097827,0.992917029876996,0.1856254976399565,True,True,eligible for further review
+810890,6,adaptive_no_change,0.09954525611958118,0.9565217391304348,1.5076836951997692,1.4204590902989127,1.0614059253776196,0.17525969227173913,False,False,research only - acceptance criteria not met
+810890,12,gradient_boosting_quantile,0.11346922796981676,1.0,1.6352938451236918,1.5238578137343477,1.0731275781670604,0.09130920013572841,True,False,research only - acceptance criteria not met

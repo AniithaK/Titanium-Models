@@ -1,0 +1,3 @@
+date,hs_code,import_unit_value_gbp_per_kg,target_reliability_score,target_quality_status,world_bank_source_age_months,world_bank_stale_flag,usgs_source_age_years,usgs_stale_flag
+2026-06-01,810820,10.92019155,0.6354320105,usable_with_caution,30,1,6,1
+2026-06-01,810890,47.30794908,0.8,reliable,30,1,6,1

@@ -1,0 +1,62 @@
+{
+  "no_change_h3": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "recent_ridge_h3": {
+    "window": 48,
+    "mode": "none"
+  },
+  "linear_median_h3": {
+    "window": 48,
+    "mode": "none"
+  },
+  "shallow_forest_h3": {
+    "window": 48,
+    "mode": "none"
+  },
+  "regularized_boosting_h3": {
+    "window": 48,
+    "mode": "volatility_12m"
+  },
+  "no_change_h6": {
+    "window": 48,
+    "mode": "volatility_6m"
+  },
+  "recent_ridge_h6": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "linear_median_h6": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "shallow_forest_h6": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "regularized_boosting_h6": {
+    "window": 48,
+    "mode": "none"
+  },
+  "recent_ridge_h12": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "linear_median_h12": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "shallow_forest_h12": {
+    "window": 48,
+    "mode": "hybrid_volatility"
+  },
+  "regularized_boosting_h12": {
+    "window": 48,
+    "mode": "none"
+  },
+  "no_change_h12": {
+    "window": 48,
+    "mode": "volatility_6m"
+  }
+}

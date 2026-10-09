@@ -1,0 +1,7 @@
+hs_code,horizon_months,previous_model,improved_model,previous_test_coverage,improved_test_coverage,previous_test_mis_ratio,improved_test_mis_ratio,previous_pass,improved_pass
+810820,3,linear_quantile,adaptive_no_change,1.0,1.0,0.8297417297988775,1.0627087622566083,True,False
+810820,6,gradient_boosting_quantile,adaptive_no_change,1.0,1.0,1.1293307236931065,1.0687936223260555,False,False
+810820,12,random_forest_distribution,gradient_boosting_quantile,0.9130434782608696,0.9130434782608695,0.9850551901593808,0.9224150236733489,False,False
+810890,3,gradient_boosting_quantile,adaptive_no_change,0.8695652173913043,0.9565217391304348,0.9085110688290484,0.992917029876996,False,True
+810890,6,gradient_boosting_quantile,adaptive_no_change,0.9565217391304348,0.9565217391304348,0.9248664098026824,1.0614059253776196,False,False
+810890,12,linear_quantile,gradient_boosting_quantile,0.9565217391304348,1.0,0.9177061143106862,1.0731275781670604,False,False

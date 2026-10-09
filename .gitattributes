@@ -1,0 +1,9 @@
+# Preserve original bytes, including CSV/JSON hashes recorded in model manifests.
+* -text
+*.pdf binary
+*.xlsx binary
+*.xls binary
+*.joblib binary
+*.pkl binary
+*.png binary
+*.jpg binary

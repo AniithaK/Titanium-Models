@@ -1,0 +1,97 @@
+model,horizon_months,feature,influence,method,relative_influence_pct,feature_description
+ridge,3,freight_log_change_1m,0.0017007755068943,Absolute standardized coefficient; unsigned,3.785005987812811,Freight change: 1 month
+ridge,3,freight_log_change_2m,0.0015207735149879,Absolute standardized coefficient; unsigned,3.3844189530029904,Freight change: 2 months
+ridge,3,freight_log_change_3m,0.0067170278852113,Absolute standardized coefficient; unsigned,14.948469485109092,Freight change: 3 months
+ridge,3,freight_log_change_6m,0.002992633467504,Absolute standardized coefficient; unsigned,6.659982783098496,Freight change: 6 months
+ridge,3,freight_log_change_12m,0.0048940249222542,Absolute standardized coefficient; unsigned,10.891451317442156,Freight change: 12 months
+ridge,3,freight_volatility_6m,0.0088493355869509,Absolute standardized coefficient; unsigned,19.693832636346748,Freight volatility: 6 months
+ridge,3,freight_volatility_12m,0.0050154831859837,Absolute standardized coefficient; unsigned,11.161751691372737,Freight volatility: 12 months
+ridge,3,brent_log_change_1m,0.0132444985404489,Absolute standardized coefficient; unsigned,29.475087145814967,Brent change: 1 month
+ridge,6,freight_log_change_1m,0.0004334864578215,Absolute standardized coefficient; unsigned,0.41003951351073786,Freight change: 1 month
+ridge,6,freight_log_change_2m,0.0089806918987906,Absolute standardized coefficient; unsigned,8.494933280444641,Freight change: 2 months
+ridge,6,freight_log_change_3m,0.009037152350413,Absolute standardized coefficient; unsigned,8.548339830287492,Freight change: 3 months
+ridge,6,freight_log_change_6m,0.0059174011405971,Absolute standardized coefficient; unsigned,5.597333529476587,Freight change: 6 months
+ridge,6,freight_log_change_12m,0.0058012332789936,Absolute standardized coefficient; unsigned,5.487449096876627,Freight change: 12 months
+ridge,6,freight_volatility_6m,0.0333802883703803,Absolute standardized coefficient; unsigned,31.57477461470082,Freight volatility: 6 months
+ridge,6,freight_volatility_12m,0.021700372277681,Absolute standardized coefficient; unsigned,20.5266160711443,Freight volatility: 12 months
+ridge,6,brent_log_change_1m,0.0204675900406746,Absolute standardized coefficient; unsigned,19.360514063558792,Brent change: 1 month
+ridge,12,freight_log_change_1m,0.0028321110725233,Absolute standardized coefficient; unsigned,1.8406393417259443,Freight change: 1 month
+ridge,12,freight_log_change_2m,0.0016919420011648,Absolute standardized coefficient; unsigned,1.0996231897387325,Freight change: 2 months
+ridge,12,freight_log_change_3m,0.0042080712071951,Absolute standardized coefficient; unsigned,2.7349002981886987,Freight change: 3 months
+ridge,12,freight_log_change_6m,0.022037534342142,Absolute standardized coefficient; unsigned,14.322585402218339,Freight change: 6 months
+ridge,12,freight_log_change_12m,0.0300304005416019,Absolute standardized coefficient; unsigned,19.517291260548117,Freight change: 12 months
+ridge,12,freight_volatility_6m,0.0271569246456401,Absolute standardized coefficient; unsigned,17.64976818459186,Freight volatility: 6 months
+ridge,12,freight_volatility_12m,0.0375176012187507,Absolute standardized coefficient; unsigned,24.38335610505956,Freight volatility: 12 months
+ridge,12,brent_log_change_1m,0.028391031570683,Absolute standardized coefficient; unsigned,18.45183621792875,Brent change: 1 month
+random_forest,3,freight_log_change_1m,0.0687484890632661,Impurity importance,6.87484890632661,Freight change: 1 month
+random_forest,3,freight_log_change_2m,0.1081460476800681,Impurity importance,10.814604768006811,Freight change: 2 months
+random_forest,3,freight_log_change_3m,0.0999427078900966,Impurity importance,9.994270789009661,Freight change: 3 months
+random_forest,3,freight_log_change_6m,0.0956449623885758,Impurity importance,9.564496238857581,Freight change: 6 months
+random_forest,3,freight_log_change_12m,0.0914113617540257,Impurity importance,9.141136175402572,Freight change: 12 months
+random_forest,3,freight_volatility_6m,0.1470818094588225,Impurity importance,14.708180945882251,Freight volatility: 6 months
+random_forest,3,freight_volatility_12m,0.1426912896639631,Impurity importance,14.269128966396313,Freight volatility: 12 months
+random_forest,3,brent_log_change_1m,0.246333332101182,Impurity importance,24.633333210118202,Brent change: 1 month
+random_forest,6,freight_log_change_1m,0.0416409407692732,Impurity importance,4.164094076927321,Freight change: 1 month
+random_forest,6,freight_log_change_2m,0.0452292227657686,Impurity importance,4.522922276576861,Freight change: 2 months
+random_forest,6,freight_log_change_3m,0.0539156332710167,Impurity importance,5.391563327101671,Freight change: 3 months
+random_forest,6,freight_log_change_6m,0.0893664180899072,Impurity importance,8.936641808990721,Freight change: 6 months
+random_forest,6,freight_log_change_12m,0.1658686000524373,Impurity importance,16.586860005243736,Freight change: 12 months
+random_forest,6,freight_volatility_6m,0.1902036783066995,Impurity importance,19.02036783066995,Freight volatility: 6 months
+random_forest,6,freight_volatility_12m,0.1738162725281135,Impurity importance,17.381627252811352,Freight volatility: 12 months
+random_forest,6,brent_log_change_1m,0.2399592342167838,Impurity importance,23.995923421678384,Brent change: 1 month
+random_forest,12,freight_log_change_1m,0.0329058807160882,Impurity importance,3.290588071608821,Freight change: 1 month
+random_forest,12,freight_log_change_2m,0.0346376222362319,Impurity importance,3.4637622236231915,Freight change: 2 months
+random_forest,12,freight_log_change_3m,0.0658069378669202,Impurity importance,6.580693786692022,Freight change: 3 months
+random_forest,12,freight_log_change_6m,0.0914249170895025,Impurity importance,9.142491708950253,Freight change: 6 months
+random_forest,12,freight_log_change_12m,0.2670842428490307,Impurity importance,26.70842428490308,Freight change: 12 months
+random_forest,12,freight_volatility_6m,0.1180213252750298,Impurity importance,11.802132527502984,Freight volatility: 6 months
+random_forest,12,freight_volatility_12m,0.2205969193277643,Impurity importance,22.059691932776435,Freight volatility: 12 months
+random_forest,12,brent_log_change_1m,0.1695221546394321,Impurity importance,16.95221546394322,Brent change: 1 month
+extra_trees,3,freight_log_change_1m,0.0737357485519274,Impurity importance,7.373574855192741,Freight change: 1 month
+extra_trees,3,freight_log_change_2m,0.1070230946540623,Impurity importance,10.702309465406232,Freight change: 2 months
+extra_trees,3,freight_log_change_3m,0.1023469996835722,Impurity importance,10.234699968357223,Freight change: 3 months
+extra_trees,3,freight_log_change_6m,0.0909603750169958,Impurity importance,9.096037501699582,Freight change: 6 months
+extra_trees,3,freight_log_change_12m,0.0883602028960017,Impurity importance,8.836020289600173,Freight change: 12 months
+extra_trees,3,freight_volatility_6m,0.1315087508717595,Impurity importance,13.150875087175955,Freight volatility: 6 months
+extra_trees,3,freight_volatility_12m,0.1533429490463209,Impurity importance,15.334294904632094,Freight volatility: 12 months
+extra_trees,3,brent_log_change_1m,0.2527218792793599,Impurity importance,25.272187927936,Brent change: 1 month
+extra_trees,6,freight_log_change_1m,0.0455044411364671,Impurity importance,4.550444113646711,Freight change: 1 month
+extra_trees,6,freight_log_change_2m,0.0833903709050698,Impurity importance,8.339037090506983,Freight change: 2 months
+extra_trees,6,freight_log_change_3m,0.0719044206622589,Impurity importance,7.190442066225891,Freight change: 3 months
+extra_trees,6,freight_log_change_6m,0.1251455143917479,Impurity importance,12.514551439174793,Freight change: 6 months
+extra_trees,6,freight_log_change_12m,0.1579956200072057,Impurity importance,15.799562000720575,Freight change: 12 months
+extra_trees,6,freight_volatility_6m,0.1615561676293361,Impurity importance,16.155616762933615,Freight volatility: 6 months
+extra_trees,6,freight_volatility_12m,0.1523168135122559,Impurity importance,15.231681351225593,Freight volatility: 12 months
+extra_trees,6,brent_log_change_1m,0.2021866517556583,Impurity importance,20.218665175565835,Brent change: 1 month
+extra_trees,12,freight_log_change_1m,0.0346573370756863,Impurity importance,3.4657337075686314,Freight change: 1 month
+extra_trees,12,freight_log_change_2m,0.0526003482684404,Impurity importance,5.260034826844041,Freight change: 2 months
+extra_trees,12,freight_log_change_3m,0.0785282378651059,Impurity importance,7.852823786510593,Freight change: 3 months
+extra_trees,12,freight_log_change_6m,0.0803635671238616,Impurity importance,8.036356712386164,Freight change: 6 months
+extra_trees,12,freight_log_change_12m,0.3072883377674164,Impurity importance,30.72883377674165,Freight change: 12 months
+extra_trees,12,freight_volatility_6m,0.1166592909768738,Impurity importance,11.665929097687384,Freight volatility: 6 months
+extra_trees,12,freight_volatility_12m,0.1884311261602127,Impurity importance,18.843112616021276,Freight volatility: 12 months
+extra_trees,12,brent_log_change_1m,0.1414717547624026,Impurity importance,14.147175476240264,Brent change: 1 month
+gradient_boosting,3,freight_log_change_1m,0.0173879264182879,P50 model impurity importance,1.7387926418287902,Freight change: 1 month
+gradient_boosting,3,freight_log_change_2m,0.1197656946719765,P50 model impurity importance,11.97656946719765,Freight change: 2 months
+gradient_boosting,3,freight_log_change_3m,0.1451700812238085,P50 model impurity importance,14.517008122380854,Freight change: 3 months
+gradient_boosting,3,freight_log_change_6m,0.0770565821864704,P50 model impurity importance,7.7056582186470415,Freight change: 6 months
+gradient_boosting,3,freight_log_change_12m,0.2262583794445323,P50 model impurity importance,22.625837944453234,Freight change: 12 months
+gradient_boosting,3,freight_volatility_6m,0.0735694460727214,P50 model impurity importance,7.356944607272141,Freight volatility: 6 months
+gradient_boosting,3,freight_volatility_12m,0.1763136204434187,P50 model impurity importance,17.631362044341873,Freight volatility: 12 months
+gradient_boosting,3,brent_log_change_1m,0.1644782695387841,P50 model impurity importance,16.447826953878415,Brent change: 1 month
+gradient_boosting,6,freight_log_change_1m,0.0849350270171996,P50 model impurity importance,8.493502701719963,Freight change: 1 month
+gradient_boosting,6,freight_log_change_2m,0.0061423806714195,P50 model impurity importance,0.6142380671419503,Freight change: 2 months
+gradient_boosting,6,freight_log_change_3m,0.0553953809742285,P50 model impurity importance,5.539538097422851,Freight change: 3 months
+gradient_boosting,6,freight_log_change_6m,0.087042386431662,P50 model impurity importance,8.704238643166203,Freight change: 6 months
+gradient_boosting,6,freight_log_change_12m,0.1953265868359147,P50 model impurity importance,19.532658683591478,Freight change: 12 months
+gradient_boosting,6,freight_volatility_6m,0.206758986790637,P50 model impurity importance,20.675898679063707,Freight volatility: 6 months
+gradient_boosting,6,freight_volatility_12m,0.2817121455990875,P50 model impurity importance,28.171214559908762,Freight volatility: 12 months
+gradient_boosting,6,brent_log_change_1m,0.0826871056798509,P50 model impurity importance,8.268710567985092,Brent change: 1 month
+gradient_boosting,12,freight_log_change_1m,0.0053896300964483,P50 model impurity importance,0.5389630096448302,Freight change: 1 month
+gradient_boosting,12,freight_log_change_2m,0.0312957138209374,P50 model impurity importance,3.1295713820937405,Freight change: 2 months
+gradient_boosting,12,freight_log_change_3m,0.0419310423838867,P50 model impurity importance,4.193104238388672,Freight change: 3 months
+gradient_boosting,12,freight_log_change_6m,0.105435843259496,P50 model impurity importance,10.543584325949602,Freight change: 6 months
+gradient_boosting,12,freight_log_change_12m,0.4224246436188456,P50 model impurity importance,42.24246436188457,Freight change: 12 months
+gradient_boosting,12,freight_volatility_6m,0.144614265058684,P50 model impurity importance,14.461426505868404,Freight volatility: 6 months
+gradient_boosting,12,freight_volatility_12m,0.1278712270882731,P50 model impurity importance,12.787122708827312,Freight volatility: 12 months
+gradient_boosting,12,brent_log_change_1m,0.1210376346734286,P50 model impurity importance,12.103763467342864,Brent change: 1 month

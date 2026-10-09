@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "period": "disruption_2021_2023",
+      "horizon_months": 3,
+      "rows": 144,
+      "metrics_reproduced": true,
+      "chronology_verified": true
+    },
+    {
+      "period": "disruption_2021_2023",
+      "horizon_months": 6,
+      "rows": 144,
+      "metrics_reproduced": true,
+      "chronology_verified": true
+    },
+    {
+      "period": "post_disruption",
+      "horizon_months": 3,
+      "rows": 198,
+      "metrics_reproduced": true,
+      "chronology_verified": true
+    },
+    {
+      "period": "post_disruption",
+      "horizon_months": 6,
+      "rows": 180,
+      "metrics_reproduced": true,
+      "chronology_verified": true
+    },
+    {
+      "period": "validation",
+      "horizon_months": 3,
+      "rows": 234,
+      "metrics_reproduced": true,
+      "chronology_verified": true
+    },
+    {
+      "period": "validation",
+      "horizon_months": 6,
+      "rows": 216,
+      "metrics_reproduced": true,
+      "chronology_verified": true
+    }
+  ],
+  "probability_sum_verified": true,
+  "model_reload_reproduces_saved_forecasts": true,
+  "future_target_alignment_verified": true,
+  "feasibility_never_excludes_observed_class": true,
+  "source_hash_unchanged": true,
+  "forecast_rows": 12
+}

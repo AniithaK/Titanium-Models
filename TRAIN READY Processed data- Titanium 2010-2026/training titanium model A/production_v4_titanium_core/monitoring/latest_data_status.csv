@@ -1,0 +1,3 @@
+date,hs_code,import_unit_value_gbp_per_kg,target_reliability_score,target_quality_status,fx_volatility_6m,eruc_volatility_6m,volume_ratio_to_prior_12m_median,supplier_hhi_weight
+2026-06-01,810820,10.92019155,0.6354320105,usable_with_caution,0.01086686763,0.0257651474,0.7257200175,0.3631083721
+2026-06-01,810890,47.30794908,0.8,reliable,0.01086686763,0.0257651474,1.31946919,0.3578928753

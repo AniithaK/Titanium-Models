@@ -1,0 +1,90 @@
+{
+  "model_name": "Titanium Model A GBP import-price change with ERUC",
+  "status": "research model; deployment requires acceptance review",
+  "random_seed": 42,
+  "quantiles": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "horizons_months": [
+    3,
+    6,
+    12
+  ],
+  "features": [
+    "price_log_change_gbp_1m",
+    "price_log_change_gbp_2m",
+    "price_log_change_gbp_3m",
+    "price_log_change_gbp_6m",
+    "price_log_change_gbp_12m",
+    "quantity_log_change_1m",
+    "quantity_log_change_3m",
+    "quantity_log_change_12m",
+    "supplier_share_usa",
+    "supplier_share_japan",
+    "supplier_share_france",
+    "supplier_share_russia",
+    "supplier_share_china",
+    "supplier_share_other",
+    "eruc_log_change_1m",
+    "eruc_log_change_3m",
+    "eruc_log_change_6m",
+    "eruc_log_change_12m",
+    "eu_collection_change_flag"
+  ],
+  "selection_period": "blocked validation ending 2022-01",
+  "frozen_test_period": "2022-02 through 2023-12",
+  "calibration": "split conformal expansion of P05-P95 using pre-test validation residuals",
+  "specification_deviation": "ERUC replaces the unavailable/incomplete titanium-specific external proxy; World Bank aluminium/nickel and USGS sponge features are not in this feature set.",
+  "hs_models": {
+    "810820": {
+      "file": "titanium_model_a_eruc_hs810820_selected_bundle.joblib",
+      "product": "Titanium unwrought and powders",
+      "reference_origin": "2026-06",
+      "horizons": {
+        "h3": {
+          "candidate": "linear_quantile",
+          "training_rows": 181,
+          "conformal_p05_p95_expansion": 0.09699933005974459
+        },
+        "h6": {
+          "candidate": "gradient_boosting_quantile",
+          "training_rows": 178,
+          "conformal_p05_p95_expansion": 0.1525521820451634
+        },
+        "h12": {
+          "candidate": "random_forest_distribution",
+          "training_rows": 172,
+          "conformal_p05_p95_expansion": 0.20572933230945833
+        }
+      }
+    },
+    "810890": {
+      "file": "titanium_model_a_eruc_hs810890_selected_bundle.joblib",
+      "product": "Titanium bars, sheet, forgings and other articles",
+      "reference_origin": "2026-06",
+      "horizons": {
+        "h3": {
+          "candidate": "gradient_boosting_quantile",
+          "training_rows": 173,
+          "conformal_p05_p95_expansion": 0.16036112385826176
+        },
+        "h6": {
+          "candidate": "gradient_boosting_quantile",
+          "training_rows": 170,
+          "conformal_p05_p95_expansion": 0.3498160460642498
+        },
+        "h12": {
+          "candidate": "linear_quantile",
+          "training_rows": 166,
+          "conformal_p05_p95_expansion": 0.36350425059319125
+        }
+      }
+    }
+  }
+}

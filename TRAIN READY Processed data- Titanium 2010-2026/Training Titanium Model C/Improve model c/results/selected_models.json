@@ -1,0 +1,44 @@
+{
+  "3": {
+    "selected_model": "shallow_forest",
+    "best_ml_candidate": "shallow_forest",
+    "configuration": {
+      "window": 48,
+      "mode": "none"
+    },
+    "best_no_change_configuration": {
+      "window": 48,
+      "mode": "hybrid_volatility"
+    },
+    "validation_acceptance": true,
+    "reference_baseline_mis": 0.13083805967804746
+  },
+  "6": {
+    "selected_model": "no_change",
+    "best_ml_candidate": "regularized_boosting",
+    "configuration": {
+      "window": 48,
+      "mode": "volatility_6m"
+    },
+    "best_no_change_configuration": {
+      "window": 48,
+      "mode": "volatility_6m"
+    },
+    "validation_acceptance": false,
+    "reference_baseline_mis": 0.1670999814484708
+  },
+  "12": {
+    "selected_model": "regularized_boosting",
+    "best_ml_candidate": "regularized_boosting",
+    "configuration": {
+      "window": 48,
+      "mode": "none"
+    },
+    "best_no_change_configuration": {
+      "window": 48,
+      "mode": "volatility_6m"
+    },
+    "h12_reporting_only": true,
+    "selection_basis": "Model family from H3/H6 validation average MIS ratios; calibration settings borrowed from H6; no H12 selection."
+  }
+}

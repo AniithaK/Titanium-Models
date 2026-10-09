@@ -1,0 +1,118 @@
+{
+  "model_name": "Titanium Model A improved V2",
+  "status": "research model; deployment requires acceptance review",
+  "random_seed": 42,
+  "quantiles": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "horizons_months": [
+    3,
+    6,
+    12
+  ],
+  "features": [
+    "price_log_change_gbp_1m",
+    "price_log_change_gbp_2m",
+    "price_log_change_gbp_3m",
+    "price_log_change_gbp_6m",
+    "price_log_change_gbp_12m",
+    "price_volatility_6m",
+    "price_volatility_12m",
+    "quantity_log_change_1m",
+    "quantity_log_change_3m",
+    "quantity_log_change_12m",
+    "quantity_volatility_6m",
+    "quantity_volatility_12m",
+    "log_net_weight_kg",
+    "volume_ratio_to_prior_12m_median",
+    "low_volume_history_flag",
+    "supplier_share_usa",
+    "supplier_share_japan",
+    "supplier_share_france",
+    "supplier_share_russia",
+    "supplier_share_china",
+    "supplier_share_other",
+    "supplier_hhi_weight",
+    "top_supplier_share_weight",
+    "log_partner_count",
+    "fx_log_change_1m",
+    "fx_log_change_3m",
+    "fx_log_change_6m",
+    "fx_log_change_12m",
+    "fx_volatility_6m",
+    "eruc_log_change_1m",
+    "eruc_log_change_3m",
+    "eruc_log_change_6m",
+    "eruc_log_change_12m",
+    "eruc_volatility_6m",
+    "month_sin",
+    "month_cos",
+    "price_shock_history_flag",
+    "world_weight_estimated_by_un_flag",
+    "eu_collection_change_flag"
+  ],
+  "selection_period": "blocked validation ending 2022-01",
+  "frozen_test_period": "2022-02 through 2023-12",
+  "calibration": "split conformal expansion of P05-P95 using pre-test validation residuals",
+  "specification_deviation": "ERUC replaces the unavailable/incomplete titanium-specific external proxy; World Bank aluminium/nickel and USGS sponge features are not in this feature set.",
+  "hs_models": {
+    "810820": {
+      "file": "titanium_model_a_eruc_hs810820_selected_bundle.joblib",
+      "product": "Titanium unwrought and powders",
+      "reference_origin": "2026-06",
+      "horizons": {
+        "h3": {
+          "candidate": "adaptive_no_change",
+          "training_rows": 181,
+          "conformal_p05_p95_expansion": 0.07421698425916579
+        },
+        "h6": {
+          "candidate": "adaptive_no_change",
+          "training_rows": 178,
+          "conformal_p05_p95_expansion": 0.04527904112100001
+        },
+        "h12": {
+          "candidate": "gradient_boosting_quantile",
+          "training_rows": 172,
+          "conformal_p05_p95_expansion": 0.06153925119508946
+        }
+      }
+    },
+    "810890": {
+      "file": "titanium_model_a_eruc_hs810890_selected_bundle.joblib",
+      "product": "Titanium bars, sheet, forgings and other articles",
+      "reference_origin": "2026-06",
+      "horizons": {
+        "h3": {
+          "candidate": "adaptive_no_change",
+          "training_rows": 173,
+          "conformal_p05_p95_expansion": 0.22614220982733926
+        },
+        "h6": {
+          "candidate": "adaptive_no_change",
+          "training_rows": 170,
+          "conformal_p05_p95_expansion": 0.28108622328004346
+        },
+        "h12": {
+          "candidate": "gradient_boosting_quantile",
+          "training_rows": 166,
+          "conformal_p05_p95_expansion": 0.4422763967531664
+        }
+      }
+    }
+  },
+  "improvements": [
+    "quality-weighted fitting",
+    "FX and volatility features",
+    "supplier concentration and volume-regime features",
+    "Elastic Net and Huber candidates",
+    "volatility-adaptive distributions",
+    "validation-gated model selection"
+  ]
+}

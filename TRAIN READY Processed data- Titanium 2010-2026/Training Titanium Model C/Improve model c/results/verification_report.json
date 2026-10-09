@@ -1,0 +1,150 @@
+{
+  "prediction_checks": [
+    {
+      "model": "linear_median",
+      "horizon_months": 3,
+      "records": 137,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "linear_median",
+      "horizon_months": 6,
+      "records": 134,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "linear_median",
+      "horizon_months": 12,
+      "records": 128,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "no_change",
+      "horizon_months": 3,
+      "records": 137,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "no_change",
+      "horizon_months": 6,
+      "records": 134,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "no_change",
+      "horizon_months": 12,
+      "records": 128,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "recent_ridge",
+      "horizon_months": 3,
+      "records": 137,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "recent_ridge",
+      "horizon_months": 6,
+      "records": 134,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "recent_ridge",
+      "horizon_months": 12,
+      "records": 128,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "regularized_boosting",
+      "horizon_months": 3,
+      "records": 137,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "regularized_boosting",
+      "horizon_months": 6,
+      "records": 134,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "regularized_boosting",
+      "horizon_months": 12,
+      "records": 128,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "shallow_forest",
+      "horizon_months": 3,
+      "records": 137,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "shallow_forest",
+      "horizon_months": 6,
+      "records": 134,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    },
+    {
+      "model": "shallow_forest",
+      "horizon_months": 12,
+      "records": 128,
+      "past_only_calibration_verified": true,
+      "quantile_order_verified": true,
+      "target_alignment_verified": true,
+      "metrics_reproduced": true
+    }
+  ],
+  "portable_models_reloaded": 15,
+  "final_forecasts_reproduced": 15,
+  "matched_baseline_calibration_verified": true,
+  "source_data_unchanged": true,
+  "limitations": [
+    "Availability dates assumed",
+    "Historical revision vintages not reconstructed",
+    "FBX comparison absent",
+    "Test periods previously examined",
+    "Time-series overlap prevents a guaranteed conformal coverage claim"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_cutoff": "2026-06",
+  "model_a_future_targets": [
+    "2026-09",
+    "2026-12",
+    "2027-06"
+  ],
+  "model_b_future_targets": [
+    "2026-09",
+    "2026-12",
+    "2027-06"
+  ],
+  "model_a_historical_rows": 630,
+  "model_b_historical_rows": 1584,
+  "outputs": {
+    "a_detail": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_ground_truth_vs_predictions_analysis.csv",
+    "a_summary": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_performance_analysis.csv",
+    "b_detail": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_b_ground_truth_vs_predictions_analysis.csv",
+    "b_summary": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_b_performance_analysis.csv",
+    "a_future": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_future_forecasts_2026_2027.csv",
+    "b_future": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_b_future_forecasts_2026_2027.csv",
+    "a_validation": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_validation_actual_vs_predicted.png",
+    "a_disruption": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_disruption_actual_vs_predicted.png",
+    "a_post": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_post_disruption_actual_vs_predicted.png",
+    "a_deviation": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_a_percentage_deviation_and_coverage.png",
+    "b_performance": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_b_accuracy_confidence_and_brier.png",
+    "b_confusion": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_b_ground_truth_confusion_matrices.png",
+    "b_reliability": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\model_b_probability_reliability.png",
+    "future": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Titanium Model A and B Performance Review\\RESULT ANALYSIS\\future_forecasts_2026_2027.png"
+  }
+}

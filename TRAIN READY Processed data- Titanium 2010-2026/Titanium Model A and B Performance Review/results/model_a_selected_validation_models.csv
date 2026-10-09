@@ -1,0 +1,7 @@
+hs_code,horizon_months,model,validation_forecasts,raw_mean_pinball_loss,calibrated_p05_p95_coverage,calibrated_mean_interval_score,conformal_p05_p95_expansion,selected_by_pretest_validation,validation_mis_ratio_to_baseline,validation_gate_eligible,selection_objective
+810820,3,linear_quantile,60,0.0461910602731509,0.9333333333333332,0.8539875271173109,0.0877789056878662,True,0.9701065729256032,True,minimum calibrated MIS among validation-gate-eligible models
+810820,6,adaptive_no_change,60,0.0463119080275215,0.9333333333333332,0.9441760658820706,0.045279041121,True,0.9779753029206892,True,minimum calibrated MIS among validation-gate-eligible models
+810820,12,random_forest_distribution,60,0.0468694428185132,0.9333333333333332,0.8350523999438568,0.0724597650561881,True,0.7739250436929939,True,minimum calibrated MIS among validation-gate-eligible models
+810890,3,elastic_net_residual,60,0.0982225987946086,0.9333333333333332,2.2365649423538647,0.2692394473227521,True,0.8691929030501954,True,minimum calibrated MIS among validation-gate-eligible models
+810890,6,linear_quantile,60,0.1088277973981391,0.9333333333333332,2.169257818418694,0.3782449618970047,True,0.7961518591506705,True,minimum calibrated MIS among validation-gate-eligible models
+810890,12,elastic_net_residual,60,0.1305759723014889,0.9333333333333332,2.306221514810617,0.477695881995503,True,0.7998350352076654,True,minimum calibrated MIS among validation-gate-eligible models

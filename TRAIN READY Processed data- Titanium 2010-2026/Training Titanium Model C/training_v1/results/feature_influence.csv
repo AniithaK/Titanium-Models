@@ -1,0 +1,97 @@
+model,horizon_months,feature,influence,method
+ridge,3,freight_log_change_1m,0.001700775506894391,Absolute standardized coefficient; unsigned
+ridge,3,freight_log_change_2m,0.0015207735149879286,Absolute standardized coefficient; unsigned
+ridge,3,freight_log_change_3m,0.006717027885211391,Absolute standardized coefficient; unsigned
+ridge,3,freight_log_change_6m,0.0029926334675040548,Absolute standardized coefficient; unsigned
+ridge,3,freight_log_change_12m,0.004894024922254284,Absolute standardized coefficient; unsigned
+ridge,3,freight_volatility_6m,0.008849335586950991,Absolute standardized coefficient; unsigned
+ridge,3,freight_volatility_12m,0.005015483185983701,Absolute standardized coefficient; unsigned
+ridge,3,brent_log_change_1m,0.013244498540448967,Absolute standardized coefficient; unsigned
+random_forest,3,freight_log_change_1m,0.06874848906326612,Impurity importance
+random_forest,3,freight_log_change_2m,0.10814604768006818,Impurity importance
+random_forest,3,freight_log_change_3m,0.09994270789009664,Impurity importance
+random_forest,3,freight_log_change_6m,0.09564496238857581,Impurity importance
+random_forest,3,freight_log_change_12m,0.09141136175402573,Impurity importance
+random_forest,3,freight_volatility_6m,0.14708180945882252,Impurity importance
+random_forest,3,freight_volatility_12m,0.1426912896639631,Impurity importance
+random_forest,3,brent_log_change_1m,0.246333332101182,Impurity importance
+extra_trees,3,freight_log_change_1m,0.07373574855192741,Impurity importance
+extra_trees,3,freight_log_change_2m,0.1070230946540623,Impurity importance
+extra_trees,3,freight_log_change_3m,0.1023469996835722,Impurity importance
+extra_trees,3,freight_log_change_6m,0.0909603750169958,Impurity importance
+extra_trees,3,freight_log_change_12m,0.08836020289600177,Impurity importance
+extra_trees,3,freight_volatility_6m,0.13150875087175956,Impurity importance
+extra_trees,3,freight_volatility_12m,0.1533429490463209,Impurity importance
+extra_trees,3,brent_log_change_1m,0.25272187927935996,Impurity importance
+gradient_boosting,3,freight_log_change_1m,0.017387926418287927,P50 model impurity importance
+gradient_boosting,3,freight_log_change_2m,0.11976569467197654,P50 model impurity importance
+gradient_boosting,3,freight_log_change_3m,0.14517008122380856,P50 model impurity importance
+gradient_boosting,3,freight_log_change_6m,0.0770565821864704,P50 model impurity importance
+gradient_boosting,3,freight_log_change_12m,0.22625837944453236,P50 model impurity importance
+gradient_boosting,3,freight_volatility_6m,0.07356944607272142,P50 model impurity importance
+gradient_boosting,3,freight_volatility_12m,0.1763136204434187,P50 model impurity importance
+gradient_boosting,3,brent_log_change_1m,0.16447826953878414,P50 model impurity importance
+ridge,6,freight_log_change_1m,0.00043348645782156,Absolute standardized coefficient; unsigned
+ridge,6,freight_log_change_2m,0.008980691898790642,Absolute standardized coefficient; unsigned
+ridge,6,freight_log_change_3m,0.009037152350413047,Absolute standardized coefficient; unsigned
+ridge,6,freight_log_change_6m,0.00591740114059717,Absolute standardized coefficient; unsigned
+ridge,6,freight_log_change_12m,0.0058012332789936245,Absolute standardized coefficient; unsigned
+ridge,6,freight_volatility_6m,0.03338028837038033,Absolute standardized coefficient; unsigned
+ridge,6,freight_volatility_12m,0.02170037227768108,Absolute standardized coefficient; unsigned
+ridge,6,brent_log_change_1m,0.0204675900406746,Absolute standardized coefficient; unsigned
+random_forest,6,freight_log_change_1m,0.04164094076927326,Impurity importance
+random_forest,6,freight_log_change_2m,0.045229222765768635,Impurity importance
+random_forest,6,freight_log_change_3m,0.05391563327101678,Impurity importance
+random_forest,6,freight_log_change_6m,0.0893664180899072,Impurity importance
+random_forest,6,freight_log_change_12m,0.1658686000524373,Impurity importance
+random_forest,6,freight_volatility_6m,0.1902036783066995,Impurity importance
+random_forest,6,freight_volatility_12m,0.17381627252811352,Impurity importance
+random_forest,6,brent_log_change_1m,0.2399592342167838,Impurity importance
+extra_trees,6,freight_log_change_1m,0.04550444113646713,Impurity importance
+extra_trees,6,freight_log_change_2m,0.08339037090506989,Impurity importance
+extra_trees,6,freight_log_change_3m,0.07190442066225895,Impurity importance
+extra_trees,6,freight_log_change_6m,0.12514551439174793,Impurity importance
+extra_trees,6,freight_log_change_12m,0.15799562000720577,Impurity importance
+extra_trees,6,freight_volatility_6m,0.1615561676293361,Impurity importance
+extra_trees,6,freight_volatility_12m,0.15231681351225593,Impurity importance
+extra_trees,6,brent_log_change_1m,0.20218665175565834,Impurity importance
+gradient_boosting,6,freight_log_change_1m,0.0849350270171996,P50 model impurity importance
+gradient_boosting,6,freight_log_change_2m,0.006142380671419533,P50 model impurity importance
+gradient_boosting,6,freight_log_change_3m,0.05539538097422858,P50 model impurity importance
+gradient_boosting,6,freight_log_change_6m,0.08704238643166204,P50 model impurity importance
+gradient_boosting,6,freight_log_change_12m,0.19532658683591472,P50 model impurity importance
+gradient_boosting,6,freight_volatility_6m,0.206758986790637,P50 model impurity importance
+gradient_boosting,6,freight_volatility_12m,0.2817121455990875,P50 model impurity importance
+gradient_boosting,6,brent_log_change_1m,0.08268710567985098,P50 model impurity importance
+ridge,12,freight_log_change_1m,0.002832111072523312,Absolute standardized coefficient; unsigned
+ridge,12,freight_log_change_2m,0.0016919420011648261,Absolute standardized coefficient; unsigned
+ridge,12,freight_log_change_3m,0.00420807120719511,Absolute standardized coefficient; unsigned
+ridge,12,freight_log_change_6m,0.022037534342142014,Absolute standardized coefficient; unsigned
+ridge,12,freight_log_change_12m,0.030030400541601922,Absolute standardized coefficient; unsigned
+ridge,12,freight_volatility_6m,0.027156924645640106,Absolute standardized coefficient; unsigned
+ridge,12,freight_volatility_12m,0.03751760121875074,Absolute standardized coefficient; unsigned
+ridge,12,brent_log_change_1m,0.028391031570683053,Absolute standardized coefficient; unsigned
+random_forest,12,freight_log_change_1m,0.03290588071608828,Impurity importance
+random_forest,12,freight_log_change_2m,0.03463762223623194,Impurity importance
+random_forest,12,freight_log_change_3m,0.06580693786692024,Impurity importance
+random_forest,12,freight_log_change_6m,0.09142491708950251,Impurity importance
+random_forest,12,freight_log_change_12m,0.2670842428490307,Impurity importance
+random_forest,12,freight_volatility_6m,0.11802132527502988,Impurity importance
+random_forest,12,freight_volatility_12m,0.22059691932776435,Impurity importance
+random_forest,12,brent_log_change_1m,0.16952215463943218,Impurity importance
+extra_trees,12,freight_log_change_1m,0.034657337075686315,Impurity importance
+extra_trees,12,freight_log_change_2m,0.052600348268440476,Impurity importance
+extra_trees,12,freight_log_change_3m,0.07852823786510595,Impurity importance
+extra_trees,12,freight_log_change_6m,0.08036356712386165,Impurity importance
+extra_trees,12,freight_log_change_12m,0.30728833776741643,Impurity importance
+extra_trees,12,freight_volatility_6m,0.1166592909768738,Impurity importance
+extra_trees,12,freight_volatility_12m,0.18843112616021276,Impurity importance
+extra_trees,12,brent_log_change_1m,0.14147175476240267,Impurity importance
+gradient_boosting,12,freight_log_change_1m,0.0053896300964483435,P50 model impurity importance
+gradient_boosting,12,freight_log_change_2m,0.03129571382093744,P50 model impurity importance
+gradient_boosting,12,freight_log_change_3m,0.04193104238388673,P50 model impurity importance
+gradient_boosting,12,freight_log_change_6m,0.10543584325949608,P50 model impurity importance
+gradient_boosting,12,freight_log_change_12m,0.42242464361884563,P50 model impurity importance
+gradient_boosting,12,freight_volatility_6m,0.14461426505868405,P50 model impurity importance
+gradient_boosting,12,freight_volatility_12m,0.12787122708827317,P50 model impurity importance
+gradient_boosting,12,brent_log_change_1m,0.1210376346734286,P50 model impurity importance

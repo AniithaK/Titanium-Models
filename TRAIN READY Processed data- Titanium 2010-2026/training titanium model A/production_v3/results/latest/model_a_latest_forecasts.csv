@@ -1,0 +1,7 @@
+hs_code,forecast_origin,horizon_months,target_month,p05_gbp_per_kg,p10_gbp_per_kg,p25_gbp_per_kg,p50_gbp_per_kg,p75_gbp_per_kg,p90_gbp_per_kg,p95_gbp_per_kg,selected_model,fallback_used,post_evaluation_pass
+810820,2026-06,3,2026-09,8.1417,9.7388,10.1446,10.9309,11.6231,12.4776,14.9533,elastic_net_residual,False,False
+810820,2026-06,6,2026-12,8.4413,9.7504,10.3268,10.8813,11.4478,12.0565,13.981,random_forest_distribution,False,True
+810820,2026-06,12,2027-06,8.3877,9.2049,9.9946,10.6481,11.3095,11.8702,12.7928,random_forest_distribution,False,False
+810890,2026-06,3,2026-09,29.5725,39.88,43.4931,47.3079,51.1658,56.9617,75.7848,adaptive_no_change,True,True
+810890,2026-06,6,2026-12,26.6941,39.1812,43.0047,47.3079,52.1995,57.7605,86.3133,adaptive_no_change,True,True
+810890,2026-06,12,2027-06,26.4811,41.5612,47.765,48.3169,51.5053,55.865,92.4995,gradient_boosting_quantile,False,False

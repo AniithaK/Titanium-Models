@@ -1,0 +1,6 @@
+{
+  "stress_h3_h6_passes": 4,
+  "post_h3_h6_passes": 3,
+  "dashboard": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_production_v6_titanium_core_corrected_dashboard.html",
+  "production_response": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\model_a_production_response.json"
+}

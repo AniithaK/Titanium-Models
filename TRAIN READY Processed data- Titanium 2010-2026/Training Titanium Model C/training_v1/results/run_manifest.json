@@ -1,0 +1,80 @@
+{
+  "features": [
+    "freight_log_change_1m",
+    "freight_log_change_2m",
+    "freight_log_change_3m",
+    "freight_log_change_6m",
+    "freight_log_change_12m",
+    "freight_volatility_6m",
+    "freight_volatility_12m",
+    "brent_log_change_1m"
+  ],
+  "source_csv": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\model_c_freight_training_2005_2026.csv",
+  "source_sha256": "765ab7f7549392fc864bc6aee66a6179721e976cb43b99be5d23f68de536cb9b",
+  "seed": 42,
+  "model_parameters": {
+    "ridge": {
+      "alpha": 1.0
+    },
+    "random_forest": {
+      "n_estimators": 120,
+      "max_depth": 7,
+      "min_samples_leaf": 6,
+      "max_features": 0.8
+    },
+    "extra_trees": {
+      "n_estimators": 120,
+      "max_depth": 8,
+      "min_samples_leaf": 6,
+      "max_features": 0.8
+    },
+    "gradient_boosting": {
+      "n_estimators": 80,
+      "max_depth": 2,
+      "min_samples_leaf": 8,
+      "learning_rate": 0.05
+    }
+  },
+  "calibration_rows": 24,
+  "quantile_levels": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "selected_models": {
+    "3": {
+      "selected_model": "gradient_boosting",
+      "best_ml_candidate": "gradient_boosting",
+      "any_ml_validation_acceptance_pass": true,
+      "validation_only_selection": true
+    },
+    "6": {
+      "selected_model": "no_change",
+      "best_ml_candidate": "ridge",
+      "any_ml_validation_acceptance_pass": false,
+      "validation_only_selection": true
+    },
+    "12": {
+      "selected_model": "gradient_boosting",
+      "best_ml_candidate": "gradient_boosting",
+      "h12_reporting_only": true,
+      "selection_basis": "Family selected from H3/H6 validation MIS ratios only; H12 metrics excluded."
+    }
+  },
+  "validation_method": "Annual expanding blocks 2015-2019 with targets available before 2020; settings fixed before test",
+  "test_method": "Monthly expanding fits; reference-month 2020-2021 primary user split and separate issue-date 2020-2021 report",
+  "h12_selection_excluded": true,
+  "calibration_method": "Chronological held-out CQR with availability purge; same method for model and no-change baseline",
+  "event_knowledge": "COVID spike and its dates are known; event window comes from specification. No settings were selected using its outcomes.",
+  "limitations": [
+    "Publication timing assumed",
+    "Current historical data may contain revisions",
+    "FBX comparison not provided",
+    "Nonexchangeable overlapping time-series targets mean conformal nominal coverage is not guaranteed"
+  ],
+  "loss_curve_definition": "Raw pinball diagnostics: Ridge versus training size; forests versus trees; Gradient Boosting versus actual stages; validation diagnostic 2015-2017; never test data"
+}

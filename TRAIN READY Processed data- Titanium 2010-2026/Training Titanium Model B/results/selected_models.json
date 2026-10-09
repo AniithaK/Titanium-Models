@@ -1,0 +1,68 @@
+{
+  "h3": {
+    "candidate": "random_forest",
+    "temperature": 1.15,
+    "validation_metrics": {
+      "horizon_months": 3,
+      "candidate": "random_forest",
+      "family": "random_forest",
+      "temperature": 1.15,
+      "brier_score": 0.6427820696979246,
+      "log_loss": 1.1182947418303817,
+      "accuracy": 0.45726495726495725,
+      "max_calibration_gap": 0.2571485947309482,
+      "expected_calibration_error": 0.02408673395303744,
+      "reliability_bins_populated": 8,
+      "historical_frequency_brier": 0.7099552277998531,
+      "persistence_brier": 1.5299145299145298,
+      "beats_historical_frequency": true,
+      "beats_persistence": true,
+      "calibration_gap_within_0_10": false
+    },
+    "met_all_validation_gates": false
+  },
+  "h6": {
+    "candidate": "extra_trees",
+    "temperature": 0.75,
+    "validation_metrics": {
+      "horizon_months": 6,
+      "candidate": "extra_trees",
+      "family": "extra_trees",
+      "temperature": 0.75,
+      "brier_score": 0.6315851563835435,
+      "log_loss": 1.1042308939045344,
+      "accuracy": 0.4583333333333333,
+      "max_calibration_gap": 0.13192231561628598,
+      "expected_calibration_error": 0.02525375306883211,
+      "reliability_bins_populated": 8,
+      "historical_frequency_brier": 0.7004815001190265,
+      "persistence_brier": 1.4537037037037037,
+      "beats_historical_frequency": true,
+      "beats_persistence": true,
+      "calibration_gap_within_0_10": false
+    },
+    "met_all_validation_gates": false
+  },
+  "h12": {
+    "candidate": "random_forest",
+    "temperature": 1.35,
+    "validation_metrics": {
+      "horizon_months": 12,
+      "candidate": "random_forest",
+      "family": "random_forest",
+      "temperature": 1.35,
+      "brier_score": 0.6467160451408546,
+      "log_loss": 1.1247392999245187,
+      "accuracy": 0.4222222222222222,
+      "max_calibration_gap": 0.28179417918258304,
+      "expected_calibration_error": 0.037630072220111624,
+      "reliability_bins_populated": 8,
+      "historical_frequency_brier": 0.7401700355450319,
+      "persistence_brier": 1.511111111111111,
+      "beats_historical_frequency": true,
+      "beats_persistence": true,
+      "calibration_gap_within_0_10": false
+    },
+    "met_all_validation_gates": false
+  }
+}

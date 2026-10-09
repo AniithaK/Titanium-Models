@@ -1,0 +1,90 @@
+{
+  "source_csv": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\model_c_freight_training_2005_2026.csv",
+  "source_sha256": "765ab7f7549392fc864bc6aee66a6179721e976cb43b99be5d23f68de536cb9b",
+  "features": [
+    "freight_log_change_1m",
+    "freight_log_change_2m",
+    "freight_log_change_3m",
+    "freight_log_change_6m",
+    "freight_log_change_12m",
+    "freight_volatility_6m",
+    "freight_volatility_12m",
+    "brent_log_change_1m"
+  ],
+  "models": {
+    "recent_ridge": "Recent-weighted Ridge",
+    "linear_median": "Regularized linear median",
+    "shallow_forest": "Shallow weighted Random Forest",
+    "regularized_boosting": "Regularized median boosting",
+    "no_change": "Matched no-change baseline"
+  },
+  "seed": 42,
+  "training_window_months": 120,
+  "recency_half_life_months": 60,
+  "calibration_windows": [
+    24,
+    36,
+    48
+  ],
+  "calibration_scale_options": [
+    "none",
+    "volatility_6m",
+    "volatility_12m",
+    "hybrid_volatility"
+  ],
+  "selections": {
+    "3": {
+      "selected_model": "shallow_forest",
+      "best_ml_candidate": "shallow_forest",
+      "configuration": {
+        "window": 48,
+        "mode": "none"
+      },
+      "best_no_change_configuration": {
+        "window": 48,
+        "mode": "hybrid_volatility"
+      },
+      "validation_acceptance": true,
+      "reference_baseline_mis": 0.13083805967804746
+    },
+    "6": {
+      "selected_model": "no_change",
+      "best_ml_candidate": "regularized_boosting",
+      "configuration": {
+        "window": 48,
+        "mode": "volatility_6m"
+      },
+      "best_no_change_configuration": {
+        "window": 48,
+        "mode": "volatility_6m"
+      },
+      "validation_acceptance": false,
+      "reference_baseline_mis": 0.1670999814484708
+    },
+    "12": {
+      "selected_model": "regularized_boosting",
+      "best_ml_candidate": "regularized_boosting",
+      "configuration": {
+        "window": 48,
+        "mode": "none"
+      },
+      "best_no_change_configuration": {
+        "window": 48,
+        "mode": "volatility_6m"
+      },
+      "h12_reporting_only": true,
+      "selection_basis": "Model family from H3/H6 validation average MIS ratios; calibration settings borrowed from H6; no H12 selection."
+    }
+  },
+  "calibration": "Completed historical out-of-sample standardized residual order quantiles; median bias adjustment for ML; baseline median exactly zero",
+  "validation": "2015-2019 eligible origins, all selection labels available before 2020; quarterly model refits and sequential calibration",
+  "test": "Monthly refits 2020 onward; choices frozen from validation. Tests are reused from previous research.",
+  "h12_selection_excluded": true,
+  "limitations": [
+    "Availability dates assumed",
+    "Historical revision vintages not reconstructed",
+    "FBX comparison absent",
+    "Test periods previously examined",
+    "Time-series overlap prevents a guaranteed conformal coverage claim"
+  ]
+}

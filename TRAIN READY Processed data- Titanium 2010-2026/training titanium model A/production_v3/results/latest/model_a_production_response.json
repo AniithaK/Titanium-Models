@@ -1,0 +1,101 @@
+{
+  "model": "SCI Model A titanium import price",
+  "model_version": "production_v3_research",
+  "status": "not_production_approved",
+  "currency": "GBP",
+  "unit": "kg",
+  "target": "UK monthly titanium import unit value",
+  "generated_from_data_through": "2026-06",
+  "forecasts_by_hs_code": [
+    {
+      "hs_code": "810820",
+      "product": "Titanium unwrought and powders",
+      "forecast_origin": "2026-06",
+      "origin_price_gbp_per_kg": 10.9202,
+      "data_quality": {
+        "target_quality_status": "usable_with_caution",
+        "world_bank_stale": true,
+        "world_bank_source_age_months": 30,
+        "usgs_stale": true,
+        "usgs_source_age_years": 6.0
+      },
+      "forecasts": [
+        {
+          "horizon_months": 3,
+          "target_month": "2026-09",
+          "p05_gbp_per_kg": 8.1417,
+          "p50_gbp_per_kg": 10.9309,
+          "p95_gbp_per_kg": 14.9533,
+          "selected_model": "elastic_net_residual",
+          "fallback_used": false,
+          "post_evaluation_pass": false
+        },
+        {
+          "horizon_months": 6,
+          "target_month": "2026-12",
+          "p05_gbp_per_kg": 8.4413,
+          "p50_gbp_per_kg": 10.8813,
+          "p95_gbp_per_kg": 13.981,
+          "selected_model": "random_forest_distribution",
+          "fallback_used": false,
+          "post_evaluation_pass": true
+        },
+        {
+          "horizon_months": 12,
+          "target_month": "2027-06",
+          "p05_gbp_per_kg": 8.3877,
+          "p50_gbp_per_kg": 10.6481,
+          "p95_gbp_per_kg": 12.7928,
+          "selected_model": "random_forest_distribution",
+          "fallback_used": false,
+          "post_evaluation_pass": false
+        }
+      ]
+    },
+    {
+      "hs_code": "810890",
+      "product": "Titanium bars, sheet, forgings and other articles",
+      "forecast_origin": "2026-06",
+      "origin_price_gbp_per_kg": 47.3079,
+      "data_quality": {
+        "target_quality_status": "reliable",
+        "world_bank_stale": true,
+        "world_bank_source_age_months": 30,
+        "usgs_stale": true,
+        "usgs_source_age_years": 6.0
+      },
+      "forecasts": [
+        {
+          "horizon_months": 3,
+          "target_month": "2026-09",
+          "p05_gbp_per_kg": 29.5725,
+          "p50_gbp_per_kg": 47.3079,
+          "p95_gbp_per_kg": 75.7848,
+          "selected_model": "adaptive_no_change",
+          "fallback_used": true,
+          "post_evaluation_pass": true
+        },
+        {
+          "horizon_months": 6,
+          "target_month": "2026-12",
+          "p05_gbp_per_kg": 26.6941,
+          "p50_gbp_per_kg": 47.3079,
+          "p95_gbp_per_kg": 86.3133,
+          "selected_model": "adaptive_no_change",
+          "fallback_used": true,
+          "post_evaluation_pass": true
+        },
+        {
+          "horizon_months": 12,
+          "target_month": "2027-06",
+          "p05_gbp_per_kg": 26.4811,
+          "p50_gbp_per_kg": 48.3169,
+          "p95_gbp_per_kg": 92.4995,
+          "selected_model": "gradient_boosting_quantile",
+          "fallback_used": false,
+          "post_evaluation_pass": false
+        }
+      ]
+    }
+  ]
+}
