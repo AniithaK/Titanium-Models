@@ -1,0 +1,26 @@
+# Python/environment and local tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+node_modules/
+tmp/
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Logs; retain models, prepared data, metrics, PDFs and visualizations
+*.log

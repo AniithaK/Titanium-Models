@@ -1,0 +1,927 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 268,
+    "sha256": "56be20e93f705ddca28c1f77f86617aed5b88aea3d8ea2db91fcbcb75dbe4258"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 384,
+    "sha256": "1a6ac37a5c198d696795afac11d5c8e63365934faf044ec58272c71f70580b37"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/app.py",
+    "bytes": 13609,
+    "sha256": "818e343986b62ecbd4b670081fc3035d6c6867ede09cad3faa6efd6c26558060"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/README.md",
+    "bytes": 2762,
+    "sha256": "d958d09236196e6d13585da21b4556ccf3225159dc27bbed6f6ab690c1095208"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/requirements.txt",
+    "bytes": 93,
+    "sha256": "cdd430b45a400c2fea55c03e3ba28b0af1d2828317ed39121ddd817a9cc209bd"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/browser_qa.json",
+    "bytes": 343,
+    "sha256": "66edd6a815a5a2feb0850a97d914ffed5bda96b8b17fe5c8d92183a61b3c88b6"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/desktop.png",
+    "bytes": 663681,
+    "sha256": "81fd76832872a0738b19b980e2a6336aa75b1fa08aa318459eb16651913cb6bd"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/desktop_overview.png",
+    "bytes": 369242,
+    "sha256": "467935971f1d93cb5569d3977f3a823e4897cd95c2f902173a41403a23480c84"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/example_live_predictions.csv",
+    "bytes": 6932,
+    "sha256": "e786a714b7c1473a4a20e983bed5c0fd57eb0462c5501715e24c221838801b5b"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/example_live_response.json",
+    "bytes": 9894,
+    "sha256": "04d3d199b3f04abc8f0ec496316ac3a67af5c74afca92267d48eac02a6d4e2ba"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/mobile.png",
+    "bytes": 431483,
+    "sha256": "b4a7fab724dba6f1550d055c4677de7195686ae50a9b43e79029824fbe98e689"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/mobile_overview.png",
+    "bytes": 112192,
+    "sha256": "ded5c91021d7c0d5fd99a3c09b7061646ec1449fcbccdb85990e851c7babe182"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/results/verification.json",
+    "bytes": 3722,
+    "sha256": "0264304f6efaa8725b5001b6ef05a40f1a24c3056cf05a1eb9fd17fa3991f2f5"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/START_UI.cmd",
+    "bytes": 114,
+    "sha256": "3145d5fed74769dab0d26087c8fdf920fe37d5e36b8c4d1f60c7d57be985a2b9"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/test_app.py",
+    "bytes": 3942,
+    "sha256": "b45e5d67aff05d3ff50ba9197a2e59cba8be1c375740f3a56ffb2af523f4a96b"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/ui/app.js",
+    "bytes": 8661,
+    "sha256": "902248929be2d4e99b1c13b1e8ac287096c5b9359f711616d297540020d64528"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/ui/index.html",
+    "bytes": 4846,
+    "sha256": "83871be991344ff0365210b6f823ab69296192b3674a0f41864cccb510856347"
+  },
+  {
+    "path": "Combined Models A B C Prediction UI/ui/style.css",
+    "bytes": 4476,
+    "sha256": "cbd2cc8ebaaebbff2bbbaf06d20e9ab12ed4f1bffef6b135dade51f5ed4d55d6"
+  },
+  {
+    "path": "COPY_MANIFEST.json",
+    "bytes": 129262,
+    "sha256": "d6e81a3679e739ccbb7d28ea40dfcd3315bacc335f4b94ded4a0b4de62b492cb"
+  },
+  {
+    "path": "DATA_SOURCES_AND_REUSE.md",
+    "bytes": 4083,
+    "sha256": "70314b4350c1e8e1b30f772d37657f5fcabf87a62b5e3ca778aa9f2af76d5c7c"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5386,
+    "sha256": "704e5ec0f4d4ddd12f522eb29b216e929444afefa9235f4d2a3e91605ea15bdb"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 204,
+    "sha256": "7e8119bc3e691658792d394cea2e7e6a07e740770cb90bc3e103f6f413c8ed62"
+  },
+  {
+    "path": "training titanium model A/code/train_titanium_model_a_eruc.py",
+    "bytes": 60074,
+    "sha256": "6606759820ddcbb380fcff3b3ff16c80279d7de7dccbe40076bfa37b3a8fdc28"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/code/build_training_data_record_pdf.py",
+    "bytes": 40267,
+    "sha256": "d077579e26b6ecf54fde4b0e9a56d0c9fd7ca4bf8718a3b4f3d72e4c5668fe14"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/code/build_v6_performance_dashboard.py",
+    "bytes": 13446,
+    "sha256": "4f7c02c5ab7a22746b4c9e47134595bc1b2c0c47c572199b1740e72e0eb8df83"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/code/engines/train_titanium_model_a_eruc.py",
+    "bytes": 60074,
+    "sha256": "6606759820ddcbb380fcff3b3ff16c80279d7de7dccbe40076bfa37b3a8fdc28"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/code/engines/train_titanium_model_a_improved_v2.py",
+    "bytes": 17916,
+    "sha256": "5b9cc90afe7b09a4e55627011374c8c5743e68a9fd0c9d2bdae9393bc9125782"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/code/saved_model_inference.py",
+    "bytes": 3219,
+    "sha256": "034fafa548ea45ba23c215240a1f6e7b9f135a0633819a319f537701affc87ee"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/code/train_model_a_production_v6_titanium_core_corrected.py",
+    "bytes": 42903,
+    "sha256": "6c11286d4180ef56909bac427b721abb4a7a9dd5aa045d70866eb9b988583d1b"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/data/README.md",
+    "bytes": 422,
+    "sha256": "09557425182aeda24c035b4bd454778ab7c49d9a43a523d99853efe05bfa203f"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/data/titanium_model_a_production_v6_titanium_core_corrected_training.csv",
+    "bytes": 570344,
+    "sha256": "d1b4b15a9eb79c5f7c6321da837c74272fc6e016c5d5c43d3760cd89c1c7c6b2"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/documentation/MODEL_CARD.md",
+    "bytes": 2378,
+    "sha256": "210d7d57a6712979cbae5c3c1f4323827f4716241118d48640da2f7147493bc8"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/documentation/titanium_model_a_v6_training_data_record.pdf",
+    "bytes": 557517,
+    "sha256": "8cf38b5ecbfe78b96e243cfdfa69e6a343f85c98b9bb5234d54c70a635fd259c"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/models/titanium_model_a_corrected_core_hs810820_selected_bundle.joblib",
+    "bytes": 1003939,
+    "sha256": "4e6a880a6c5d4c5463abddce87fa2adf929e2b688e3af28811b494aefba9c133"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/models/titanium_model_a_corrected_core_hs810890_selected_bundle.joblib",
+    "bytes": 34708,
+    "sha256": "58ceea3c88c1ff6e81fe704afb88f935bbc2534d6fe1e4a5506f48749995beb5"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/monitoring/historical_forecast_monitoring.csv",
+    "bytes": 145913,
+    "sha256": "0f8bed0d9ddbc48e765e60f82ecb658f6475f028e8ab6f61f1111b8ca8fdbaae"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/monitoring/latest_data_status.csv",
+    "bytes": 391,
+    "sha256": "11c896a07271dd3dea9e2ef760648973ab1ab7a96c6b7ee333c92fde684b860b"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/monitoring/latest_feature_drift.csv",
+    "bytes": 8807,
+    "sha256": "0ae7c53f683dffc0daed374fb2da4069e5ce0cc68a4c14f6ce4627f6cde6fd4c"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/README.md",
+    "bytes": 17822,
+    "sha256": "35d59caa8807e4060b16597f20e237486a1b59ca37d7d4712730243ea8744ba5"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/requirements.txt",
+    "bytes": 110,
+    "sha256": "6b7f4fde3f7df1f35db05da2d9b36366e9e147133b12ba20c365694a9dd48614"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/latest/latest_reference_forecasts.csv",
+    "bytes": 2587,
+    "sha256": "1e97890cdb8a6dd0e8f516f856661daf15e8759e6dd4994a779d9ca0d8a40a77"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/latest/latest_reference_forecasts.json",
+    "bytes": 5713,
+    "sha256": "7f172245ed4621c3fb1b3eb5f79fda597d978b37ba07dd9b3a22f8a4ba7a133d"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/latest/model_a_production_response.json",
+    "bytes": 3180,
+    "sha256": "812321c65411682b468e29922b1345cfafc1be0ded1275b518f21b882f3ed0d3"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/latest/model_manifest.json",
+    "bytes": 3987,
+    "sha256": "44e023b679a77bb6f32f6ed68afc2b2f9aa807cfa4fb10cb858aa414a4b73a97"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/latest/selected_model_feature_importance.csv",
+    "bytes": 15889,
+    "sha256": "21d30edb521aaa516af3cb772a4bdadc3a42de954665e6a2d6d24ae4b1a1c4b1"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/post_2024_2025/evaluation_metrics.csv",
+    "bytes": 2073,
+    "sha256": "b19a61f4c8e87046f725aeb1afd3e2fefdb40775cb79abda880e4fb70bdbd522"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/post_2024_2025/selected_and_baseline_predictions.csv",
+    "bytes": 129606,
+    "sha256": "971053f04a8c559c961067f9230a27c79621400d4097e8a50e3f48d12b287b60"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/run_summary.json",
+    "bytes": 599,
+    "sha256": "d5cd509b44659d306640aa12e613167313ea4437a53c4e1d42067077825b7994"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/stress_2022_2023/evaluation_metrics.csv",
+    "bytes": 2316,
+    "sha256": "00e341b8483ac86dd2d91844444f8e0873859390312e63b8cd8727e558b06681"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/stress_2022_2023/selected_and_baseline_predictions.csv",
+    "bytes": 130675,
+    "sha256": "394dbf45ccb8210befac7fdfb9971c09a32dc7820ff82789ca288c7163c0fc35"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/validation/conformal_calibration_offsets.csv",
+    "bytes": 2311,
+    "sha256": "32668be2a2d9e552161f7304c3ced0b8f9709a7248022ad3d922ebad163cdb49"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/validation/pretest_validation_model_comparison.csv",
+    "bytes": 8625,
+    "sha256": "ef50e5ee62027f31a5688e1e2b44fafc9dc4c55a70ce91e85a737d38215bf187"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/results/validation/pretest_validation_predictions.csv",
+    "bytes": 871405,
+    "sha256": "d97cde5e9ad688bffa0410dcd3e436d1e5df72db8c2965fce1869201783e9d07"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/RUN_TRAINING_V6.cmd",
+    "bytes": 154,
+    "sha256": "83a24f663acb09ada6bb0a3197bedb6bbe6d8036f88b323747637f10ed77375b"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/titanium_model_a_end_user_demo.html",
+    "bytes": 23761,
+    "sha256": "c6bfca42a42977e608eb113dd44b1224e750b3d25bd6ce5fe1a2acffccfbccdd"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/post_2024_2025_actual_vs_forecast.png",
+    "bytes": 316636,
+    "sha256": "7dae2f516e3c2da19f99432a573d8d8ee40f85d687305a253e7143d7fa59a181"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/post_2024_2025_coverage_and_mis.png",
+    "bytes": 75472,
+    "sha256": "491ce31ae178e200625bda5c805050885ca2669d6ec60ad70ad1fdd02417fb57"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/selected_model_feature_importance.png",
+    "bytes": 354806,
+    "sha256": "b772a0f77076b6f9e6c50574321edea23baf69fda8ffa39ecc7a7511e05ab416"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/stress_2022_2023_coverage_and_mis.png",
+    "bytes": 74563,
+    "sha256": "0e237d0da19530bd21a8506dcad6b00171fa38ab69aa998efa81e6c385e3d1c9"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/target_reliability_over_time.png",
+    "bytes": 225476,
+    "sha256": "99c4dc1e60004c39250d744e14a37a17550a38ea302ebbd6b40483f87dc42304"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_production_v6_titanium_core_corrected_dashboard.html",
+    "bytes": 1403449,
+    "sha256": "27eff0b880c70d270dd438acb2e65ff00438fe3f0e2c8d9b4a8e9f1ac062b4d3"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_v6_performance_dashboard.html",
+    "bytes": 1409479,
+    "sha256": "c70c1226c579afdf56e2352ab74cc9460d0d01c219e4786c709fa2d4f1c276a1"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_v6_performance_dashboard_full_preview.png",
+    "bytes": 1118256,
+    "sha256": "a75bf796d448561a4f5548ec1a8324a1c636b6de96011a3fc9e368f6268d76a1"
+  },
+  {
+    "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_v6_performance_dashboard_preview.png",
+    "bytes": 395557,
+    "sha256": "53d8193d7cdbeddc1bd582d88321d04b47646483e020b25e07a52ae0a2ef76f5"
+  },
+  {
+    "path": "Training Titanium Model B/data/model_b_fixed_class_thresholds.json",
+    "bytes": 251,
+    "sha256": "524a79b82ff31af202693362b48a0687d7bfa6f90bd3ed77ed0cd86e011db8e8"
+  },
+  {
+    "path": "Training Titanium Model B/data/README.md",
+    "bytes": 730,
+    "sha256": "bfdb76b28b1541e83fd2df2fc781b7900419cdcac6411765f2d8809442297f55"
+  },
+  {
+    "path": "Training Titanium Model B/data/titanium_model_b_country_month_training_2010_2026.csv",
+    "bytes": 968482,
+    "sha256": "5c26d0343ed0a176ce6ff47c48e1d0f17655ecaa12d738fb3f1cf80fd7c9450d"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/code/model_b_feature_engine.py",
+    "bytes": 47791,
+    "sha256": "be1b90a2b2354b74d3489d1cad6b7b9e82fa319eca7f179dbbe801c60df9e587"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/code/train_probability_model_b.py",
+    "bytes": 38701,
+    "sha256": "46c80557edc23da9326c5d37ad869b3cd9f3eddd5d01501e19b53719f34d9062"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/code/verify_local_data.py",
+    "bytes": 1772,
+    "sha256": "21ed675fd5dbb8b4ccc9eeb775a1fbb24ae227f6bad94eb606d3650d102501b2"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/code/verify_probability_model_b.py",
+    "bytes": 4399,
+    "sha256": "8d8d9ce532a00239dfafb9428b23b29eb084f6fb0134a7360281a04a25328a6d"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/model_b_fixed_class_thresholds.json",
+    "bytes": 251,
+    "sha256": "524a79b82ff31af202693362b48a0687d7bfa6f90bd3ed77ed0cd86e011db8e8"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/original_evaluation_metrics.csv",
+    "bytes": 1488,
+    "sha256": "c0ad18a88a025af4e730fed38c73ac63a8cd1aa89a744b6936e24cebf21da7ac"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/original_model_manifest.json",
+    "bytes": 2503,
+    "sha256": "3642a547da9bd930c66cd1617a10d12f5f0e8697073c502eea3ec007a891e78b"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/original_selected_models.json",
+    "bytes": 2327,
+    "sha256": "1a667e0381d41f4f559685fd16a534f25d440f036252746076a6eeaff6f5ddf6"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/previous_experiment_manifest.json",
+    "bytes": 6363,
+    "sha256": "ad52237ae7d6cacab3408850532a4acc22faf72d4c3c97d1f788aa34649b04da"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/previous_improved_evaluation_metrics.csv",
+    "bytes": 1348,
+    "sha256": "a4e9693abc4dcf9e4eaccb21fce840ef14349c50aca7f6225518b70665baa461"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/README.md",
+    "bytes": 1231,
+    "sha256": "a47b6e8e65d473d601dc0aef08dccbf396fe7513f06397f1e7323a6687392e36"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/source_data_README.md",
+    "bytes": 730,
+    "sha256": "bfdb76b28b1541e83fd2df2fc781b7900419cdcac6411765f2d8809442297f55"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/titanium_model_b_country_month_training_2010_2026.csv",
+    "bytes": 968482,
+    "sha256": "5c26d0343ed0a176ce6ff47c48e1d0f17655ecaa12d738fb3f1cf80fd7c9450d"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/data/upstream_titanium_model_a_training_with_fx_eruc_2010_2026.csv",
+    "bytes": 493719,
+    "sha256": "f7703ce6a2176802abaee6614a26eedfbad2330bba450af9a4330b6a860cfb74"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/models/model_b_h3_calibrated.joblib",
+    "bytes": 6240934,
+    "sha256": "2fb347bd1e68d714733757e78a47af797922c1514b295e8940d6de83c0e8dfae"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/models/model_b_h6_calibrated.joblib",
+    "bytes": 3869062,
+    "sha256": "2e046ad5d7ad21c351cfb5f4bae1843e23a4fcd332728822f4044703334041a3"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/README.md",
+    "bytes": 20015,
+    "sha256": "4e47e59a6b593aa8fa2de50015446ebc29056dc0cbaf9198f95b03f840b99250"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/requirements.txt",
+    "bytes": 109,
+    "sha256": "3b1bc7406a8ff9b5039fd0969a74b612cca0cab2bca738ef3eb8a3a6a452dd06"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/all_ground_truth_predictions.csv",
+    "bytes": 366570,
+    "sha256": "8fc26a8df1d7402f5ae865e87bd95035482bdca20d0059c4e1fe475d49064594"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/class_recall.csv",
+    "bytes": 1140,
+    "sha256": "1cc0b7c0137570549eb3961c71b8360a4f1364deb585bbe4a86ce6976e00046b"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/country_metrics.csv",
+    "bytes": 8599,
+    "sha256": "0177e421680de9a6b73d4e7e6920686efbd0e4a6e61790ed1083b22d82621c05"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/disruption_2021_2023_predictions.csv",
+    "bytes": 96229,
+    "sha256": "533fe05f64aec663a65a76709d24ae40fdff410698ed523083d3e354dcb0f079"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/evaluation_metrics.csv",
+    "bytes": 1806,
+    "sha256": "21e3c8ce8f8bfb651620bd8749134f37e62c169d6b07b2327819a460ed346091"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/latest_forecasts.csv",
+    "bytes": 2151,
+    "sha256": "b988a935ce095ce92b09b97b3f6dc6080d3e6e867825327cec0074698e7334b1"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/model_b_response.json",
+    "bytes": 7079,
+    "sha256": "f66d91a7a70cf34fad3216fe4414b3dd12090c79aa872ca5d31aac0f39480dce"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/model_manifest.json",
+    "bytes": 7944,
+    "sha256": "cd03c7dda70ed98eae1b7c7b9893d6832c46d47829dea2cd3e8fc8a0fe06b346"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/post_disruption_predictions.csv",
+    "bytes": 124805,
+    "sha256": "c1be5555c406be26a7635a994a38052e02889ff73f8855a7ec5ae63c8055aafa"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/previous_vs_new_metrics.csv",
+    "bytes": 2689,
+    "sha256": "ddb76dca5f3c00980a33c9112073e96096d1cc3f00c13051ad5c45e5868ea4ba"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/reliability_bins.csv",
+    "bytes": 4826,
+    "sha256": "8e192d73ba95ccd2421d97946338b25cdb918dbbda45bbe6313a15faec6859cb"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/selected_configurations.json",
+    "bytes": 471,
+    "sha256": "92e4d46a4d8e08402d5c9f8707168cfc7f803d3b67dea0221efd3708931e7a44"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/source_audit.json",
+    "bytes": 2397,
+    "sha256": "2be1372e1d008c1cfbdebd0af06d1ab27e946daa40e6ef1fd2bb4fae670df52e"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/validation_configuration_comparison.csv",
+    "bytes": 179220,
+    "sha256": "a4dc9b7e4a4ead2ec9446d3c68991929345790d0bec90e1e45ce4bb98908ede8"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/validation_predictions.csv",
+    "bytes": 146640,
+    "sha256": "babe6a6b12df6a7f4c2f72a33d8069f71f7bc7d857b655639997975912c838b6"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/results/verification_report.json",
+    "bytes": 1283,
+    "sha256": "10250b5862ba3a3dfb4505aba4365393677a433a932add6dd2e6f1876e2a34ba"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/brier_comparison.png",
+    "bytes": 58118,
+    "sha256": "d754e0d8d8ae6a823b47b4e97f068f990e8c6f9385b7e722cfc2f13d67790fcc"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/confusion_matrices.png",
+    "bytes": 48746,
+    "sha256": "c253e1d1c2f84b5534a0e0790b1dde265a0decd7ec6944ae0b753929e086d940"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/model_b_probability_improvement_dashboard.html",
+    "bytes": 1822484,
+    "sha256": "8c6912f4cec2106b11be2a56e27bccc5b0f7eb99878e17ea07dc115826aaa9f6"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/probability_reliability.png",
+    "bytes": 190783,
+    "sha256": "2ad78a4f20e5556ce88aea66d0fcdec394255ff8a4a6fd9e883609c6ac08be7b"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/russia_risk_check.png",
+    "bytes": 218281,
+    "sha256": "80b17d2deb97708e62ee0ee96ead5bdbe625dc0d42ec3fc5237c0f92ff4d8751"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/README.md",
+    "bytes": 1515,
+    "sha256": "e2753435baf287c3e865a56bcc13a543b03dbe7e694c3d5ef5b26bd4508737a5"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/results/experiment_manifest.json",
+    "bytes": 6363,
+    "sha256": "ad52237ae7d6cacab3408850532a4acc22faf72d4c3c97d1f788aa34649b04da"
+  },
+  {
+    "path": "Training Titanium Model B/improve accuracy/train_model_b_improved_accuracy.py",
+    "bytes": 47791,
+    "sha256": "be1b90a2b2354b74d3489d1cad6b7b9e82fa319eca7f179dbbe801c60df9e587"
+  },
+  {
+    "path": "Training Titanium Model C/Data/bls_deep_sea_freight_ppi_monthly_1988-06_to_2026-08.csv",
+    "bytes": 8754,
+    "sha256": "c93badc8513e232e83c1b8bdb8843a282bc1ccae7d93a5cbaaf339863e9070d6"
+  },
+  {
+    "path": "Training Titanium Model C/Data/world_bank_pink_sheet_monthly_1960-01_to_2026-09.xlsx",
+    "bytes": 586099,
+    "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154"
+  },
+  {
+    "path": "Training Titanium Model C/Train/model_c_freight_training_2005_2026.csv",
+    "bytes": 189559,
+    "sha256": "765ab7f7549392fc864bc6aee66a6179721e976cb43b99be5d23f68de536cb9b"
+  },
+  {
+    "path": "Training Titanium Model C/Train/model_c_preparation_manifest.json",
+    "bytes": 4524,
+    "sha256": "cc305c5b48647df564f2291f9784e726bfcd96e7d16e6a07cebba037d857d49d"
+  },
+  {
+    "path": "Training Titanium Model C/Train/model_c_training_column_dictionary.csv",
+    "bytes": 27041,
+    "sha256": "be2ad9f5583f8d91bef159f86b6fc179c4fb82b7a2504c07bd93fc15c3b4b768"
+  },
+  {
+    "path": "Training Titanium Model C/Train/README.md",
+    "bytes": 7801,
+    "sha256": "c0a5693d1df10e75cc58a9474f3497b57dbc3a9a710ea631d5ebe94b79e0b70d"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/code/plot_feature_importance.py",
+    "bytes": 5298,
+    "sha256": "5af4f499ed0596378eb53facf9aef1f38d419eeb1bd57e281ee9b19f7d4d989e"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/code/train_model_c.py",
+    "bytes": 44820,
+    "sha256": "2fbbd644859f8a85474bf06b27b0726f006c7fd9b2960cc2caeec685ce36ec9e"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/code/verify_local_data.py",
+    "bytes": 1296,
+    "sha256": "37ad58d386145d0e66920cffbd2f0f205b02d82dc9bcca90e6a45a56447698fa"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/code/verify_model_c.py",
+    "bytes": 5795,
+    "sha256": "fbe60860c01135631f0f1ac6d6f18d347aec6aae18a2269a165fa93b5251574c"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/data/model_c_freight_training_2005_2026.csv",
+    "bytes": 189559,
+    "sha256": "765ab7f7549392fc864bc6aee66a6179721e976cb43b99be5d23f68de536cb9b"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/data/model_c_preparation_manifest.json",
+    "bytes": 4524,
+    "sha256": "cc305c5b48647df564f2291f9784e726bfcd96e7d16e6a07cebba037d857d49d"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/data/model_c_training_column_dictionary.csv",
+    "bytes": 27041,
+    "sha256": "be2ad9f5583f8d91bef159f86b6fc179c4fb82b7a2504c07bd93fc15c3b4b768"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/data/README.md",
+    "bytes": 7801,
+    "sha256": "c0a5693d1df10e75cc58a9474f3497b57dbc3a9a710ea631d5ebe94b79e0b70d"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/extra_trees/model_c_h12.joblib",
+    "bytes": 164032,
+    "sha256": "e5865e8a10becac6be68e724ebd9a1c64e16652f8e81cc248c7944c647c8ff85"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/extra_trees/model_c_h3.joblib",
+    "bytes": 175305,
+    "sha256": "a566b0a282050f78ab9d922f15559c2187843885d39867155d280453d1af4726"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/extra_trees/model_c_h6.joblib",
+    "bytes": 161654,
+    "sha256": "e0737919e34b477f7a156fcc61602a270c35c8d46cbb11669c5f397290ffe06e"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/gradient_boosting/model_c_h12.joblib",
+    "bytes": 176830,
+    "sha256": "fb30c4e89009b8818ab13434d2cdbc1e5cde4f28e5bcca6e301a11c905d96e0c"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/gradient_boosting/model_c_h3.joblib",
+    "bytes": 179914,
+    "sha256": "13d61978abbc00aabef11f745ad00dafa6ca14f01ccc57a13f3fe044c3fe03e9"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/gradient_boosting/model_c_h6.joblib",
+    "bytes": 176466,
+    "sha256": "f875643ca212516ea06c82905725c79776d77f4398f4b5eb2a5197f123e2ae48"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/no_change/model_c_h12.joblib",
+    "bytes": 871,
+    "sha256": "a1485b0ce604217a01a82ad77023ea4829a8df1d6e55e04f5155a550624628c6"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/no_change/model_c_h3.joblib",
+    "bytes": 874,
+    "sha256": "73460cd0f3f4a6d14b8b6eede3815e2aad92b1b8e6123c9840eba9b61089fc06"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/no_change/model_c_h6.joblib",
+    "bytes": 880,
+    "sha256": "a4203097187261dac741753d83118052caec4bc50bc2f4c740da84c187505aa5"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/random_forest/model_c_h12.joblib",
+    "bytes": 128114,
+    "sha256": "aed71aa3aac11cb6f532a3a47401603b760c8b4cac340838356fb0aa2d1056a4"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/random_forest/model_c_h3.joblib",
+    "bytes": 137384,
+    "sha256": "140ee06d349fb1dcb35b64fbfd807c4e635f335254e16f42f957687ab472a7c9"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/random_forest/model_c_h6.joblib",
+    "bytes": 130138,
+    "sha256": "4ae2a4df050262a4012d3391b64d584043cd0648f2d8aec543244fec27a8cace"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/ridge/model_c_h12.joblib",
+    "bytes": 1617,
+    "sha256": "93994092dd3617574cb07f879e62db819f4b3c84330f1a0caa36f9e078c41cf2"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/ridge/model_c_h3.joblib",
+    "bytes": 1613,
+    "sha256": "9a443bde1def6cab6849b9cd780c7f63263d8c9b3d0702d254fc229826053b69"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/models/ridge/model_c_h6.joblib",
+    "bytes": 1610,
+    "sha256": "698abd96161f34c7db18fdced131be0bb0fd01f1ae41aab7712a0350c4496a28"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/all_out_of_sample_predictions.csv",
+    "bytes": 1522703,
+    "sha256": "5093faa6294892868864ad4e15e09a7e019be9fb2d25dc4780006a0ba8ea0c24"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/disruption_test_actual_vs_predicted.csv",
+    "bytes": 277207,
+    "sha256": "d8e3bfd4338b0781b37569926fb0c70e493440fe81f7c74433e87f84b32703b0"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/in_sample_training_diagnostic.csv",
+    "bytes": 950801,
+    "sha256": "d1a79ac2d62843f0494c374938b8ec2476bd21c0a19dd13be97214553080e966"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/latest_forecasts_all_models.csv",
+    "bytes": 7569,
+    "sha256": "5101c7d48699ee6b297a9113fc803f6b5169bdef7001a8a89be6e8461d1a0d83"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/latest_selected_forecasts.csv",
+    "bytes": 1902,
+    "sha256": "5c0b7e3b940f8b7ad67dbbc7f4fcd4222d89e3b0c6a028bf43728f23c7d7ff96"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/post_disruption_actual_vs_predicted.csv",
+    "bytes": 567518,
+    "sha256": "c7941c54810a3d1329c89ba30f12d5b388bb722996b2043be470ff38dc3b2e1d"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/pretest_bridge_actual_vs_predicted.csv",
+    "bytes": 92347,
+    "sha256": "a4c6172bd8fec64f32260422e12922684cb5b24c7ca6ca77080bd418036556a8"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/rolling_predictions_checkpoint.csv",
+    "bytes": 935320,
+    "sha256": "82022a38dfa9e0cfb30a8607919b523b14c5cdd9fb572ee4857788ec76c13ef5"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/specification_issue_date_test_actual_vs_predicted.csv",
+    "bytes": 281986,
+    "sha256": "99d4ee7d6003cd7a27e04d54800a06982a6f19cdbc59990f3743a7a7fe4674e9"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/predictions/validation_actual_vs_predicted.csv",
+    "bytes": 588259,
+    "sha256": "2a34fc6812ec4493a5304da4520ccd5d30f27a9376b2773905314858fbf0bc63"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/README.md",
+    "bytes": 20985,
+    "sha256": "b9bbbf94e959ab6b348fff7bf77db83feaf071c42241c8cbcf38e754380c9d38"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/requirements.txt",
+    "bytes": 79,
+    "sha256": "7a98137d7a7a928a7b576043a22ff8371f2858c1571dfcde14445637f7af892d"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/evaluation_metrics.csv",
+    "bytes": 25815,
+    "sha256": "861545f50fe3d092bf396c0b1b65aa18f5bff0f28f634b211092d157014ad5c3"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/feature_importance_normalized.csv",
+    "bytes": 12521,
+    "sha256": "f9b49da8fac9b2275a8ca1f60d0952759624d0c61d1e71bf35939ea5c45ae092"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/feature_influence.csv",
+    "bytes": 8341,
+    "sha256": "57cd0904ae945f15f94c0779c67cd136c80e1a735d1fefc9f27ee7c89b7da45c"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/forecast_errors.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/in_sample_diagnostic_metrics.csv",
+    "bytes": 5348,
+    "sha256": "92127c22a7f29693eba9576052a22c2ff83b83758512547ce9370637394274f6"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/model_c_response.json",
+    "bytes": 4228,
+    "sha256": "864f7914227c6defb1ab2e19b20ed81e5510e03f492550524c844358d782cb2b"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/recovery_coverage_trajectory.csv",
+    "bytes": 16172,
+    "sha256": "07d22761c25cda500e63415533178c3d48f952fed8b1624f7572d358d75c32f9"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/recovery_summary.csv",
+    "bytes": 3268,
+    "sha256": "3d4f664b16dfca88d6896b17f6a98c53f3de0cdc0594bd1c95bdbd4db907e7df"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/run_manifest.json",
+    "bytes": 2891,
+    "sha256": "384204db189ac748371d647832c03bd64a0225c08845dc466f14b98f559af3fc"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/selected_models.json",
+    "bytes": 616,
+    "sha256": "558c7b052d4a00ac8e4d60b6b5458d55072cc586c10653d22955eb398eccf599"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/train_validation_loss_curves.csv",
+    "bytes": 25427,
+    "sha256": "3d8fd852910b2df701576a0be0993b425f9b48d6b2f7ceccdcc68ee07ea265f3"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/validation_metrics.csv",
+    "bytes": 5282,
+    "sha256": "7b4dae519b83f9e1e0a9f89bb833e08773f62dbd5e9c513c033c05af9e46e52a"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/results/verification_report.json",
+    "bytes": 4501,
+    "sha256": "eb892e83e7ed226e41122bf382f95a2c86316061ceff5297c2e0ede898eb37e3"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_disruption_test_h12.png",
+    "bytes": 330471,
+    "sha256": "3a852b10be0fb946ee5d89515b596a80b9553d67936253d53de9a892ecd82269"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_disruption_test_h3.png",
+    "bytes": 380626,
+    "sha256": "db2952083d5074d47eca753125ed461e84d94ec34d2cb6586a629c1b9b95a6e1"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_disruption_test_h6.png",
+    "bytes": 350280,
+    "sha256": "939d5f7353107dc286bc664c88e8bc9c28d64a17df72bd3daba188abbc251492"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_post_disruption_h12.png",
+    "bytes": 432013,
+    "sha256": "7b5df2de10ac124bdd5f184dca4202280e8e740f7e82d30c21fa75239be2e1e6"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_post_disruption_h3.png",
+    "bytes": 561604,
+    "sha256": "516f43d451676e90bab70f0c5fe250b62b6586a64eddfcb7d41e23bf207f53ea"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_post_disruption_h6.png",
+    "bytes": 506542,
+    "sha256": "b5d72a51774f9f0bff9ce18b697cf50ddf0ea25dc9667369e41f17f9815422cb"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_validation_h12.png",
+    "bytes": 380593,
+    "sha256": "ab989e70227587f385db7d9133338e5af9603baace1be105340329b3391afbaf"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_validation_h3.png",
+    "bytes": 446229,
+    "sha256": "6a9194beda50c5ef08f7961e99ce42b1ca8a8e4f1cd40409a341ee123c405b64"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/actual_vs_predicted_validation_h6.png",
+    "bytes": 432551,
+    "sha256": "17c1245f30fd109f5184f4b23ec158c88760b870b81b8be587a9612143cc4b2e"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/disruption_recovery_coverage.png",
+    "bytes": 119908,
+    "sha256": "fb8e01cc205a0ecd8ddd64fef8bef38f4a53a3fabb5644aea131ec33f627a916"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/feature_importance_extra_trees.png",
+    "bytes": 160410,
+    "sha256": "c6b328112c5141746217c3630e09a351aaedf38941da2514ca85833cf1dff2fb"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/feature_importance_gradient_boosting.png",
+    "bytes": 176555,
+    "sha256": "7fddbbe0d1d7f73b83a607b9b9c2fcb2e75e5d0ae38f5f74148b257e76037a0e"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/feature_importance_random_forest.png",
+    "bytes": 157410,
+    "sha256": "a12d96855871ad4adc97e4316038d7514d00edac2acbc0213124bbf99f3108c3"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/feature_importance_ridge.png",
+    "bytes": 165875,
+    "sha256": "342f535cde196848ebbac6ec6292bfd8811cfe74fa3258d4bb736ae59011519d"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/model_c_training_dashboard.html",
+    "bytes": 2739177,
+    "sha256": "c620bd1a62407894a424ddf54d1003c053b982910285b43cd2a01e1623dccdc2"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/model_mis_comparison.png",
+    "bytes": 114150,
+    "sha256": "2d96d5ac84b4678cb603dbf10795772def85c3d251be4d6fc54d76a2212a3ac9"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/train_validation_loss_extra_trees.png",
+    "bytes": 122883,
+    "sha256": "ae35d44011c90b32a44c78fd8636b7bf4979054c7ed871c9b729e6b7c129d9e2"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/train_validation_loss_gradient_boosting.png",
+    "bytes": 145447,
+    "sha256": "d645e5dcf7b07e46f116005f9287fb00a9b9502ee5c12d8d59610ffd00265667"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/train_validation_loss_random_forest.png",
+    "bytes": 114703,
+    "sha256": "c6f0f4b5af6b9891f6b570a92d54febc096cc31df8da3e3b65b822d34a2ff605"
+  },
+  {
+    "path": "Training Titanium Model C/training_v1/visualizations/train_validation_loss_ridge.png",
+    "bytes": 130792,
+    "sha256": "264d0569ab2df824b1013aef19751fd286769f672f5bcc166760fbbad8458aa8"
+  },
+  {
+    "path": "VERIFY_PACKAGE.cmd",
+    "bytes": 110,
+    "sha256": "53475c96e72f9036a72743660f66dda84a1f8231ce77a1a86bdd5dc3c23cf709"
+  },
+  {
+    "path": "verify_package.py",
+    "bytes": 3520,
+    "sha256": "1e2ce1f03ca0dbf490abc343b86ad4de4c2bc3148264cae73d57f7bdafe804c7"
+  }
+]

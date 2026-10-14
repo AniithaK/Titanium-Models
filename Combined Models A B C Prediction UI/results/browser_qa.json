@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "desktop": "1440x1000",
+  "mobile": "390x844",
+  "horizontalOverflow": false,
+  "errors": [],
+  "checks": [
+    "live inference",
+    "all model cards",
+    "horizon selection",
+    "B H12 unsupported",
+    "tabs",
+    "product and supplier change",
+    "CSV download",
+    "C comparator label",
+    "keyboard tabs"
+  ]
+}

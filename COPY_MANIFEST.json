@@ -1,0 +1,1173 @@
+﻿{
+    "copiedAtUtc":  "2026-10-13T15:19:38.4072020Z",
+    "sourceRoot":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026",
+    "destinationRoot":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC",
+    "originalsUnchanged":  true,
+    "byteIdenticalCopiesVerified":  true,
+    "fileCount":  166,
+    "totalBytes":  41128134,
+    "files":  [
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\README.md",
+                      "sha256":  "DAE9BC438225ECE092007A63BEC93EA8961982476E78674B347ABA1C93589E68",
+                      "bytes":  2423,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\requirements.txt",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\requirements.txt",
+                      "sha256":  "F7ADBF167215AE80869B1F8494723DCF4D925CB5745DBE6BDDC6DF7AC2169C58",
+                      "bytes":  44,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\RUN_TRAINING_V6.cmd",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\RUN_TRAINING_V6.cmd",
+                      "sha256":  "AA2D456BBEC6FD3316B76F538E53EF1FE6373A48D3770E0F214A655E71AF0AF7",
+                      "bytes":  148,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\titanium_model_a_end_user_demo.html",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\titanium_model_a_end_user_demo.html",
+                      "sha256":  "C6BFCA42A42977E608EB113DD44B1224E750B3D25BD6CE5FE1A2ACFFCCFBCCDD",
+                      "bytes":  23761,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\code\\build_training_data_record_pdf.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\code\\build_training_data_record_pdf.py",
+                      "sha256":  "BC4F5923B091054E48FF984F221F7A344D7E6A231FE9696BEF34B1F19A03AD1B",
+                      "bytes":  40287,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\code\\build_v6_performance_dashboard.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\code\\build_v6_performance_dashboard.py",
+                      "sha256":  "4F7C02C5AB7A22746B4C9E47134595BC1B2C0C47C572199B1740E72E0EB8DF83",
+                      "bytes":  13446,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\code\\train_model_a_production_v6_titanium_core_corrected.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\code\\train_model_a_production_v6_titanium_core_corrected.py",
+                      "sha256":  "A83637503168B5CDC99D6C544BDA7DF271604D59B29B1B52C87B2A0067E06358",
+                      "bytes":  42911,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\code\\__pycache__\\build_training_data_record_pdf.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\code\\__pycache__\\build_training_data_record_pdf.cpython-312.pyc",
+                      "sha256":  "6B20F6CBFAC917DCF932BC54004D21ED4CFF0EBFBA0A29476D8422628C960E98",
+                      "bytes":  56190,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\code\\__pycache__\\build_v6_performance_dashboard.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\code\\__pycache__\\build_v6_performance_dashboard.cpython-312.pyc",
+                      "sha256":  "472BC5FA8AAEFF79138E4FD55917E879049442FE146CA3509F5A5B5DD26D9CB5",
+                      "bytes":  17610,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\code\\__pycache__\\train_model_a_production_v6_titanium_core_corrected.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\code\\__pycache__\\train_model_a_production_v6_titanium_core_corrected.cpython-312.pyc",
+                      "sha256":  "3D1A72DDDA167BA8A3561E1F457A70D9BBA66DA3E4B01801886129ACE35EFCCD",
+                      "bytes":  52710,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\data\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\data\\README.md",
+                      "sha256":  "09557425182AEDA24C035B4BD454778AB7C49D9A43A523D99853EFE05BFA203F",
+                      "bytes":  422,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\data\\titanium_model_a_production_v6_titanium_core_corrected_training.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\data\\titanium_model_a_production_v6_titanium_core_corrected_training.csv",
+                      "sha256":  "D1B4B15A9EB79C5F7C6321DA837C74272FC6E016C5D5C43D3760CD89C1C7C6B2",
+                      "bytes":  570344,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\documentation\\MODEL_CARD.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\documentation\\MODEL_CARD.md",
+                      "sha256":  "DAE9BC438225ECE092007A63BEC93EA8961982476E78674B347ABA1C93589E68",
+                      "bytes":  2423,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\documentation\\titanium_model_a_v6_training_data_record.pdf",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\documentation\\titanium_model_a_v6_training_data_record.pdf",
+                      "sha256":  "8CF38B5ECBFE78B96E243CFDFA69E6A343F85C98B9BB5234D54C70A635FD259C",
+                      "bytes":  557517,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\models\\titanium_model_a_corrected_core_hs810820_selected_bundle.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\models\\titanium_model_a_corrected_core_hs810820_selected_bundle.joblib",
+                      "sha256":  "4E6A880A6C5D4C5463ABDDCE87FA2ADF929E2B688E3AF28811B494AEFBA9C133",
+                      "bytes":  1003939,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\models\\titanium_model_a_corrected_core_hs810890_selected_bundle.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\models\\titanium_model_a_corrected_core_hs810890_selected_bundle.joblib",
+                      "sha256":  "58CEEA3C88C1FF6E81FE704AFB88F935BBC2534D6FE1E4A5506F48749995BEB5",
+                      "bytes":  34708,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\monitoring\\historical_forecast_monitoring.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\monitoring\\historical_forecast_monitoring.csv",
+                      "sha256":  "0F8BED0D9DDBC48E765E60F82ECB658F6475F028E8AB6F61F1111B8CA8FDBAAE",
+                      "bytes":  145913,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\monitoring\\latest_data_status.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\monitoring\\latest_data_status.csv",
+                      "sha256":  "11C896A07271DD3DEA9E2EF760648973AB1AB7A96C6B7EE333C92FDE684B860B",
+                      "bytes":  391,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\monitoring\\latest_feature_drift.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\monitoring\\latest_feature_drift.csv",
+                      "sha256":  "0AE7C53F683DFFC0DAED374FB2DA4069E5CE0CC68A4C14F6CE4627F6CDE6FD4C",
+                      "bytes":  8807,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\run_summary.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\run_summary.json",
+                      "sha256":  "D5CD509B44659D306640AA12E613167313EA4437A53C4E1D42067077825B7994",
+                      "bytes":  599,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\latest_reference_forecasts.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\latest_reference_forecasts.csv",
+                      "sha256":  "1E97890CDB8A6DD0E8F516F856661DAF15E8759E6DD4994A779D9CA0D8A40A77",
+                      "bytes":  2587,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\latest_reference_forecasts.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\latest_reference_forecasts.json",
+                      "sha256":  "7F172245ED4621C3FB1B3EB5F79FDA597D978B37BA07DD9B3A22F8A4BA7A133D",
+                      "bytes":  5713,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\model_a_production_response.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\model_a_production_response.json",
+                      "sha256":  "812321C65411682B468E29922B1345CFAFC1BE0DED1275B518F21B882F3ED0D3",
+                      "bytes":  3180,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\model_manifest.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\model_manifest.json",
+                      "sha256":  "44E023B679A77BB6F32F6ED68AFC2B2F9AA807CFA4FB10CB858AA414A4B73A97",
+                      "bytes":  3987,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\selected_model_feature_importance.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\latest\\selected_model_feature_importance.csv",
+                      "sha256":  "21D30EDB521AAA516AF3CB772A4BDADC3A42DE954665E6A2D6D24AE4B1A1C4B1",
+                      "bytes":  15889,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\post_2024_2025\\evaluation_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\post_2024_2025\\evaluation_metrics.csv",
+                      "sha256":  "B19A61F4C8E87046F725AEB1AFD3E2FEFDB40775CB79ABDA880E4FB70BDBD522",
+                      "bytes":  2073,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\post_2024_2025\\selected_and_baseline_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\post_2024_2025\\selected_and_baseline_predictions.csv",
+                      "sha256":  "971053F04A8C559C961067F9230A27C79621400D4097E8A50E3F48D12B287B60",
+                      "bytes":  129606,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\stress_2022_2023\\evaluation_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\stress_2022_2023\\evaluation_metrics.csv",
+                      "sha256":  "00E341B8483AC86DD2D91844444F8E0873859390312E63B8CD8727E558B06681",
+                      "bytes":  2316,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\stress_2022_2023\\selected_and_baseline_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\stress_2022_2023\\selected_and_baseline_predictions.csv",
+                      "sha256":  "394DBF45CCB8210BEFAC7FDFB9971C09A32DC7820FF82789CA288C7163C0FC35",
+                      "bytes":  130675,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\validation\\conformal_calibration_offsets.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\validation\\conformal_calibration_offsets.csv",
+                      "sha256":  "32668BE2A2D9E552161F7304C3CED0B8F9709A7248022AD3D922EBAD163CDB49",
+                      "bytes":  2311,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\validation\\pretest_validation_model_comparison.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\validation\\pretest_validation_model_comparison.csv",
+                      "sha256":  "EF50E5EE62027F31A5688E1E2B44FAFC9DC4C55A70CE91E85A737D38215BF187",
+                      "bytes":  8625,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\results\\validation\\pretest_validation_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\results\\validation\\pretest_validation_predictions.csv",
+                      "sha256":  "D97CDE5E9AD688BFFA0410DCD3E436D1E5DF72DB8C2965FCE1869201783E9D07",
+                      "bytes":  871405,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\post_2024_2025_actual_vs_forecast.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\post_2024_2025_actual_vs_forecast.png",
+                      "sha256":  "7DAE2F516E3C2DA19F99432A573D8D8EE40F85D687305A253E7143D7FA59A181",
+                      "bytes":  316636,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\post_2024_2025_coverage_and_mis.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\post_2024_2025_coverage_and_mis.png",
+                      "sha256":  "491CE31AE178E200625BDA5C805050885CA2669D6EC60AD70AD1FDD02417FB57",
+                      "bytes":  75472,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\selected_model_feature_importance.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\selected_model_feature_importance.png",
+                      "sha256":  "B772A0F77076B6F9E6C50574321EDEA23BAF69FDA8FFA39ECC7A7511E05AB416",
+                      "bytes":  354806,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\stress_2022_2023_coverage_and_mis.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\stress_2022_2023_coverage_and_mis.png",
+                      "sha256":  "0E237D0DA19530BD21A8506DCAD6B00171FA38AB69AA998EFA81E6C385E3D1C9",
+                      "bytes":  74563,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\target_reliability_over_time.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\target_reliability_over_time.png",
+                      "sha256":  "99C4DC1E60004C39250D744E14A37A17550A38EA302EBBD6B40483F87DC42304",
+                      "bytes":  225476,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_production_v6_titanium_core_corrected_dashboard.html",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_production_v6_titanium_core_corrected_dashboard.html",
+                      "sha256":  "F485C72FA61CE213A8713713CEE571A8788E96769A4420AB1920213DBB06B4AD",
+                      "bytes":  1403635,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_v6_performance_dashboard.html",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_v6_performance_dashboard.html",
+                      "sha256":  "545BD5BC1B18ED0AD68BEEBA74B7CC2C4F387C2B070E800ABC2ED3F73D8B8E9A",
+                      "bytes":  1409520,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_v6_performance_dashboard_full_preview.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_v6_performance_dashboard_full_preview.png",
+                      "sha256":  "A75BF796D448561A4F5548EC1A8324A1C636B6DE96011A3FC9E368F6268D76A1",
+                      "bytes":  1118256,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_v6_performance_dashboard_preview.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\production_v6_titanium_core_corrected\\visualizations\\titanium_model_a_v6_performance_dashboard_preview.png",
+                      "sha256":  "53D8193D7CDBEDDC1BD582D88321D04B47646483E020B25E07A52AE0A2EF76F5",
+                      "bytes":  395557,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\README.md",
+                      "sha256":  "2F5EF7C59FBD7B0B61629B18C4071E7F102BE3A6E66C6C57FF21038261EA958F",
+                      "bytes":  7388,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\requirements.txt",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\requirements.txt",
+                      "sha256":  "3B1BC7406A8FF9B5039FD0969A74B612CCA0CAB2BCA738EF3EB8A3A6A452DD06",
+                      "bytes":  109,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\code\\train_probability_model_b.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\code\\train_probability_model_b.py",
+                      "sha256":  "23B03D5444697A337D10215D3E8C736BF2AD06F557A85FA8D0CB470D8DA1B2D6",
+                      "bytes":  38605,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\code\\verify_probability_model_b.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\code\\verify_probability_model_b.py",
+                      "sha256":  "8D8D9CE532A00239DFAFB9428B23B29EB084F6FB0134A7360281A04A25328A6D",
+                      "bytes":  4399,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\code\\__pycache__\\train_probability_model_b.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\code\\__pycache__\\train_probability_model_b.cpython-312.pyc",
+                      "sha256":  "670AB7C9FF7BEA5240A27B4E76CECA773BAA6449C750A1C60480E0579BA77597",
+                      "bytes":  58287,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\models\\model_b_h3_calibrated.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\models\\model_b_h3_calibrated.joblib",
+                      "sha256":  "2FB347BD1E68D714733757E78A47AF797922C1514B295E8940D6DE83C0E8DFAE",
+                      "bytes":  6240934,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\models\\model_b_h6_calibrated.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\models\\model_b_h6_calibrated.joblib",
+                      "sha256":  "2E046AD5D7AD21C351CFB5F4BAE1843E23A4FCD332728822F4044703334041A3",
+                      "bytes":  3869062,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\all_ground_truth_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\all_ground_truth_predictions.csv",
+                      "sha256":  "8FC26A8DF1D7402F5AE865E87BD95035482BDCA20D0059C4E1FE475D49064594",
+                      "bytes":  366570,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\class_recall.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\class_recall.csv",
+                      "sha256":  "1CC0B7C0137570549EB3961C71B8360A4F1364DEB585BBE4A86CE6976E00046B",
+                      "bytes":  1140,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\country_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\country_metrics.csv",
+                      "sha256":  "0177E421680DE9A6B73D4E7E6920686EFBD0E4A6E61790ED1083B22D82621C05",
+                      "bytes":  8599,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\disruption_2021_2023_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\disruption_2021_2023_predictions.csv",
+                      "sha256":  "533FE05F64AEC663A65A76709D24AE40FDFF410698ED523083D3E354DCB0F079",
+                      "bytes":  96229,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\evaluation_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\evaluation_metrics.csv",
+                      "sha256":  "21E3C8CE8F8BFB651620BD8749134F37E62C169D6B07B2327819A460ED346091",
+                      "bytes":  1806,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\latest_forecasts.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\latest_forecasts.csv",
+                      "sha256":  "B988A935CE095CE92B09B97B3F6DC6080D3E6E867825327CEC0074698E7334B1",
+                      "bytes":  2151,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\model_b_response.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\model_b_response.json",
+                      "sha256":  "F66D91A7A70CF34FAD3216FE4414B3DD12090C79AA872CA5D31AAC0F39480DCE",
+                      "bytes":  7079,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\model_manifest.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\model_manifest.json",
+                      "sha256":  "CD03C7DDA70ED98EAE1B7C7B9893D6832C46D47829DEA2CD3E8FC8A0FE06B346",
+                      "bytes":  7944,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\post_disruption_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\post_disruption_predictions.csv",
+                      "sha256":  "C1BE5555C406BE26A7635A994A38052E02889FF73F8855A7EC5AE63C8055AAFA",
+                      "bytes":  124805,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\previous_vs_new_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\previous_vs_new_metrics.csv",
+                      "sha256":  "DDB76DCA5F3C00980A33C9112073E96096D1CC3F00C13051AD5C45E5868EA4BA",
+                      "bytes":  2689,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\reliability_bins.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\reliability_bins.csv",
+                      "sha256":  "8E192D73BA95CCD2421D97946338B25CDB918DBBDA45BBE6313A15FAEC6859CB",
+                      "bytes":  4826,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\selected_configurations.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\selected_configurations.json",
+                      "sha256":  "92E4D46A4D8E08402D5C9F8707168CFC7F803D3B67DEA0221EFD3708931E7A44",
+                      "bytes":  471,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\source_audit.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\source_audit.json",
+                      "sha256":  "2BE1372E1D008C1CFBDEBD0AF06D1AB27E946DAA40E6EF1FD2BB4FAE670DF52E",
+                      "bytes":  2397,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\validation_configuration_comparison.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\validation_configuration_comparison.csv",
+                      "sha256":  "A4DC9B7E4A4EAD2EC9446D3C68991929345790D0BEC90E1E45CE4BB98908EDE8",
+                      "bytes":  179220,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\validation_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\validation_predictions.csv",
+                      "sha256":  "BABE6A6B12DF6A7F4C2F72A33D8069F71F7BC7D857B655639997975912C838B6",
+                      "bytes":  146640,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\verification_report.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\results\\verification_report.json",
+                      "sha256":  "10250B5862BA3A3DFB4505ABA4365393677A433A932ADD6DD2E6F1876E2A34BA",
+                      "bytes":  1283,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\brier_comparison.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\brier_comparison.png",
+                      "sha256":  "D754E0D8D8AE6A823B47B4E97F068F990E8C6F9385B7E722CFC2F13D67790FCC",
+                      "bytes":  58118,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\confusion_matrices.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\confusion_matrices.png",
+                      "sha256":  "C253E1D1C2F84B5534A0E0790B1DDE265A0DECD7EC6944AE0B753929E086D940",
+                      "bytes":  48746,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\model_b_probability_improvement_dashboard.html",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\model_b_probability_improvement_dashboard.html",
+                      "sha256":  "BD0497B4B59D9C2C93C343618E878D83E10F7BD8F5E85063560CFCE4FED7CA66",
+                      "bytes":  1822768,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\probability_reliability.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\probability_reliability.png",
+                      "sha256":  "2AD78A4F20E5556CE88AEA66D0FCDEC394255FF8A4A6FD9E883609C6AC08BE7B",
+                      "bytes":  190783,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\russia_risk_check.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\visualizations\\russia_risk_check.png",
+                      "sha256":  "80B17D2DEB97708E62EE0EE96EAD5BDBE625DC0D42EC3FC5237C0F92FF4D8751",
+                      "bytes":  218281,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\data\\model_b_fixed_class_thresholds.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\data\\model_b_fixed_class_thresholds.json",
+                      "sha256":  "524A79B82FF31AF202693362B48A0687D7BFA6F90BD3ED77ED0CD86E011DB8E8",
+                      "bytes":  251,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\data\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\data\\README.md",
+                      "sha256":  "BFDB76B28B1541E83FD2DF2FC781B7900419CDCAC6411765F2D8809442297F55",
+                      "bytes":  730,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\data\\titanium_model_b_country_month_training_2010_2026.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\data\\titanium_model_b_country_month_training_2010_2026.csv",
+                      "sha256":  "5C26D0343ED0A176CE6FF47C48E1D0F17655ECAA12D738FB3F1CF80FD7C9450D",
+                      "bytes":  968482,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\README.md",
+                      "sha256":  "5F0CCBD445E1744E51B36CBF0B51EB8DBF4CEAD3510420B734E140D905F3D8A5",
+                      "bytes":  12294,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\requirements.txt",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\requirements.txt",
+                      "sha256":  "7A98137D7A7A928A7B576043A22FF8371F2858C1571DFCDE14445637F7AF892D",
+                      "bytes":  79,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\code\\plot_feature_importance.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\code\\plot_feature_importance.py",
+                      "sha256":  "5AF4F499ED0596378EB53FACF9AEF1F38D419EEB1BD57E281EE9B19F7D4D989E",
+                      "bytes":  5298,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\code\\train_model_c.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\code\\train_model_c.py",
+                      "sha256":  "071D72810621A711C149FBDBCCE69736E9CA76C1A9C3B4E433F139A67D5E333F",
+                      "bytes":  44824,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\code\\verify_model_c.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\code\\verify_model_c.py",
+                      "sha256":  "FBE60860C01135631F0F1AC6D6F18D347AEC6AAE18A2269A165FA93B5251574C",
+                      "bytes":  5795,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\code\\__pycache__\\train_model_c.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\code\\__pycache__\\train_model_c.cpython-312.pyc",
+                      "sha256":  "F8150AA7C6535FCBBDEF9DBC5DDC9B2377A175ABC5C0AADF06793B2BEED7F682",
+                      "bytes":  73048,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\extra_trees\\model_c_h12.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\extra_trees\\model_c_h12.joblib",
+                      "sha256":  "E5865E8A10BECAC6BE68E724EBD9A1C64E16652F8E81CC248C7944C647C8FF85",
+                      "bytes":  164032,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\extra_trees\\model_c_h3.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\extra_trees\\model_c_h3.joblib",
+                      "sha256":  "A566B0A282050F78AB9D922F15559C2187843885D39867155D280453D1AF4726",
+                      "bytes":  175305,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\extra_trees\\model_c_h6.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\extra_trees\\model_c_h6.joblib",
+                      "sha256":  "E0737919E34B477F7A156FCC61602A270C35C8D46CBB11669C5F397290FFE06E",
+                      "bytes":  161654,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h12.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h12.joblib",
+                      "sha256":  "FB30C4E89009B8818AB13434D2CDBC1E5CDE4F28E5BCCA6E301A11C905D96E0C",
+                      "bytes":  176830,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h3.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h3.joblib",
+                      "sha256":  "13D61978ABBC00AABEF11F745AD00DAFA6CA14F01CCC57A13F3FE044C3FE03E9",
+                      "bytes":  179914,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h6.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h6.joblib",
+                      "sha256":  "F875643CA212516EA06C82905725C79776D77F4398F4B5EB2A5197F123E2AE48",
+                      "bytes":  176466,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h12.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h12.joblib",
+                      "sha256":  "A1485B0CE604217A01A82AD77023EA4829A8DF1D6E55E04F5155A550624628C6",
+                      "bytes":  871,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h3.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h3.joblib",
+                      "sha256":  "73460CD0F3F4A6D14B8B6EEDE3815E2AAD92B1B8E6123C9840EBA9B61089FC06",
+                      "bytes":  874,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h6.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h6.joblib",
+                      "sha256":  "A4203097187261DAC741753D83118052CAEC4BC50BC2F4C740DA84C187505AA5",
+                      "bytes":  880,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h12.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h12.joblib",
+                      "sha256":  "AED71AA3AAC11CB6F532A3A47401603B760C8B4CAC340838356FB0AA2D1056A4",
+                      "bytes":  128114,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h3.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h3.joblib",
+                      "sha256":  "140EE06D349FB1DCB35B64FBFD807C4E635F335254E16F42F957687AB472A7C9",
+                      "bytes":  137384,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h6.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h6.joblib",
+                      "sha256":  "4AE2A4DF050262A4012D3391B64D584043CD0648F2D8AEC543244FEC27A8CACE",
+                      "bytes":  130138,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\ridge\\model_c_h12.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\ridge\\model_c_h12.joblib",
+                      "sha256":  "93994092DD3617574CB07F879E62DB819F4B3C84330F1A0CAA36F9E078C41CF2",
+                      "bytes":  1617,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\ridge\\model_c_h3.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\ridge\\model_c_h3.joblib",
+                      "sha256":  "9A443BDE1DEF6CAB6849B9CD780C7F63263D8C9B3D0702D254FC229826053B69",
+                      "bytes":  1613,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\ridge\\model_c_h6.joblib",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\models\\ridge\\model_c_h6.joblib",
+                      "sha256":  "698ABD96161F34C7DB18FDCED131BE0BB0FD01F1AE41AAB7712A0350C4496A28",
+                      "bytes":  1610,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\all_out_of_sample_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\all_out_of_sample_predictions.csv",
+                      "sha256":  "5093FAA6294892868864AD4E15E09A7E019BE9FB2D25DC4780006A0BA8EA0C24",
+                      "bytes":  1522703,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\disruption_test_actual_vs_predicted.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\disruption_test_actual_vs_predicted.csv",
+                      "sha256":  "D8E3BFD4338B0781B37569926FB0C70E493440FE81F7C74433E87F84B32703B0",
+                      "bytes":  277207,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\in_sample_training_diagnostic.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\in_sample_training_diagnostic.csv",
+                      "sha256":  "D1A79AC2D62843F0494C374938B8EC2476BD21C0A19DD13BE97214553080E966",
+                      "bytes":  950801,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\latest_forecasts_all_models.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\latest_forecasts_all_models.csv",
+                      "sha256":  "5101C7D48699EE6B297A9113FC803F6B5169BDEF7001A8A89BE6E8461D1A0D83",
+                      "bytes":  7569,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\latest_selected_forecasts.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\latest_selected_forecasts.csv",
+                      "sha256":  "5C0B7E3B940F8B7AD67DBBC7F4FCD4222D89E3B0C6A028BF43728F23C7D7FF96",
+                      "bytes":  1902,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\post_disruption_actual_vs_predicted.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\post_disruption_actual_vs_predicted.csv",
+                      "sha256":  "C7941C54810A3D1329C89BA30F12D5B388BB722996B2043BE470FF38DC3B2E1D",
+                      "bytes":  567518,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\pretest_bridge_actual_vs_predicted.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\pretest_bridge_actual_vs_predicted.csv",
+                      "sha256":  "A4C6172BD8FEC64F32260422E12922684CB5B24C7CA6CA77080BD418036556A8",
+                      "bytes":  92347,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\rolling_predictions_checkpoint.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\rolling_predictions_checkpoint.csv",
+                      "sha256":  "82022A38DFA9E0CFB30A8607919B523B14C5CDD9FB572EE4857788EC76C13EF5",
+                      "bytes":  935320,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\specification_issue_date_test_actual_vs_predicted.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\specification_issue_date_test_actual_vs_predicted.csv",
+                      "sha256":  "99D4EE7D6003CD7A27E04D54800A06982A6F19CDBC59990F3743A7A7FE4674E9",
+                      "bytes":  281986,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\predictions\\validation_actual_vs_predicted.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\predictions\\validation_actual_vs_predicted.csv",
+                      "sha256":  "2A34FC6812EC4493A5304DA4520CCD5D30F27A9376B2773905314858FBF0BC63",
+                      "bytes":  588259,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\evaluation_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\evaluation_metrics.csv",
+                      "sha256":  "861545F50FE3D092BF396C0B1B65AA18F5BFF0F28F634B211092D157014AD5C3",
+                      "bytes":  25815,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\feature_importance_normalized.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\feature_importance_normalized.csv",
+                      "sha256":  "F9B49DA8FAC9B2275A8CA1F60D0952759624D0C61D1E71BF35939EA5C45AE092",
+                      "bytes":  12521,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\feature_influence.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\feature_influence.csv",
+                      "sha256":  "57CD0904AE945F15F94C0779C67CD136C80E1A735D1FEFC9F27EE7C89B7DA45C",
+                      "bytes":  8341,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\forecast_errors.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\forecast_errors.json",
+                      "sha256":  "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+                      "bytes":  2,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\in_sample_diagnostic_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\in_sample_diagnostic_metrics.csv",
+                      "sha256":  "92127C22A7F29693EBA9576052A22C2FF83B83758512547CE9370637394274F6",
+                      "bytes":  5348,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\model_c_response.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\model_c_response.json",
+                      "sha256":  "864F7914227C6DEFB1AB2E19B20ED81E5510E03F492550524C844358D782CB2B",
+                      "bytes":  4228,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\recovery_coverage_trajectory.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\recovery_coverage_trajectory.csv",
+                      "sha256":  "07D22761C25CDA500E63415533178C3D48F952FED8B1624F7572D358D75C32F9",
+                      "bytes":  16172,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\recovery_summary.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\recovery_summary.csv",
+                      "sha256":  "3D4F664B16DFCA88D6896B17F6A98C53F3DE0CDC0594BD1C95BDBD4DB907E7DF",
+                      "bytes":  3268,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\run_manifest.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\run_manifest.json",
+                      "sha256":  "384204DB189AC748371D647832C03BD64A0225C08845DC466F14B98F559AF3FC",
+                      "bytes":  2891,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\selected_models.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\selected_models.json",
+                      "sha256":  "558C7B052D4A00AC8E4D60B6B5458D55072CC586C10653D22955EB398ECCF599",
+                      "bytes":  616,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\train_validation_loss_curves.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\train_validation_loss_curves.csv",
+                      "sha256":  "3D8FD852910B2DF701576A0BE0993B425F9B48D6B2F7CECCDCC68EE07EA265F3",
+                      "bytes":  25427,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\validation_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\validation_metrics.csv",
+                      "sha256":  "7B4DAE519B83F9E1E0A9F89BB833E08773F62DBD5E9C513C033C05AF9E46E52A",
+                      "bytes":  5282,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\results\\verification_report.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\results\\verification_report.json",
+                      "sha256":  "EB892E83E7ED226E41122BF382F95A2C86316061CEFF5297C2E0EDE898EB37E3",
+                      "bytes":  4501,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_disruption_test_h12.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_disruption_test_h12.png",
+                      "sha256":  "3A852B10BE0FB946EE5D89515B596A80B9553D67936253D53DE9A892ECD82269",
+                      "bytes":  330471,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_disruption_test_h3.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_disruption_test_h3.png",
+                      "sha256":  "DB2952083D5074D47ECA753125ED461E84D94EC34D2CB6586A629C1B9B95A6E1",
+                      "bytes":  380626,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_disruption_test_h6.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_disruption_test_h6.png",
+                      "sha256":  "939D5F7353107DC286BC664C88E8BC9C28D64A17DF72BD3DABA188ABBC251492",
+                      "bytes":  350280,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_post_disruption_h12.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_post_disruption_h12.png",
+                      "sha256":  "7B5DF2DE10AC124BDD5F184DCA4202280E8E740F7E82D30C21FA75239BE2E1E6",
+                      "bytes":  432013,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_post_disruption_h3.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_post_disruption_h3.png",
+                      "sha256":  "516F43D451676E90BAB70F0C5FE250B62B6586A64EDDFCB7D41E23BF207F53EA",
+                      "bytes":  561604,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_post_disruption_h6.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_post_disruption_h6.png",
+                      "sha256":  "B5D72A51774F9F0BFF9CE18B697CF50DDF0EA25DC9667369E41F17F9815422CB",
+                      "bytes":  506542,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_validation_h12.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_validation_h12.png",
+                      "sha256":  "AB989E70227587F385DB7D9133338E5AF9603BAACE1BE105340329B3391AFBAF",
+                      "bytes":  380593,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_validation_h3.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_validation_h3.png",
+                      "sha256":  "6A9194BEDA50C5EF08F7961E99CE42B1CA8A8E4F1CD40409A341EE123C405B64",
+                      "bytes":  446229,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_validation_h6.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\actual_vs_predicted_validation_h6.png",
+                      "sha256":  "17C1245F30FD109F5184F4B23EC158C88760B870B81B8BE587A9612143CC4B2E",
+                      "bytes":  432551,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\disruption_recovery_coverage.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\disruption_recovery_coverage.png",
+                      "sha256":  "FB8E01CC205A0ECD8DDD64FEF8BEF38F4A53A3FABB5644AEA131EC33F627A916",
+                      "bytes":  119908,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_extra_trees.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_extra_trees.png",
+                      "sha256":  "C6B328112C5141746217C3630E09A351AAEDF38941DA2514CA85833CF1DFF2FB",
+                      "bytes":  160410,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_gradient_boosting.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_gradient_boosting.png",
+                      "sha256":  "7FDDBBE0D1D7F73B83A607B9B9C2FCB2E75E5D0AE38F5F74148B257E76037A0E",
+                      "bytes":  176555,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_random_forest.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_random_forest.png",
+                      "sha256":  "A12D96855871AD4ADC97E4316038D7514D00EDAC2ACBC0213124BBF99F3108C3",
+                      "bytes":  157410,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_ridge.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\feature_importance_ridge.png",
+                      "sha256":  "342F535CDE196848EBBAC6EC6292BFD8811CFE74FA3258D4BB736AE59011519D",
+                      "bytes":  165875,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\model_c_training_dashboard.html",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\model_c_training_dashboard.html",
+                      "sha256":  "C6373474D925DF9F00288B2008B3BB0AABC51592C8E033322380514974ED2507",
+                      "bytes":  2739725,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\model_mis_comparison.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\model_mis_comparison.png",
+                      "sha256":  "2D96D5AC84B4678CB603DBF10795772DEF85C3D251BE4D6FC54D76A2212A3AC9",
+                      "bytes":  114150,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_extra_trees.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_extra_trees.png",
+                      "sha256":  "AE35D44011C90B32A44C78FD8636B7BF4979054C7ED871C9B729E6B7C129D9E2",
+                      "bytes":  122883,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_gradient_boosting.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_gradient_boosting.png",
+                      "sha256":  "D645E5DCF7B07E46F116005F9287FB00A9B9502EE5C12D8D59610FFD00265667",
+                      "bytes":  145447,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_random_forest.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_random_forest.png",
+                      "sha256":  "C6F0F4B5AF6B9891F6B570A92D54FEBC096CC31DF8DA3E3B65B822D34A2FF605",
+                      "bytes":  114703,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_ridge.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\training_v1\\visualizations\\train_validation_loss_ridge.png",
+                      "sha256":  "264D0569AB2DF824B1013AEF19751FD286769F672F5BCC166760FBBAD8458AA8",
+                      "bytes":  130792,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\model_c_freight_training_2005_2026.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\Train\\model_c_freight_training_2005_2026.csv",
+                      "sha256":  "765AB7F7549392FC864BC6AEE66A6179721E976CB43B99BE5D23F68DE536CB9B",
+                      "bytes":  189559,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\model_c_preparation_manifest.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\Train\\model_c_preparation_manifest.json",
+                      "sha256":  "CC305C5B48647DF564F2291F9784E726BFCD96E7D16E6A07CEBBA037D857D49D",
+                      "bytes":  4524,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\model_c_training_column_dictionary.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\Train\\model_c_training_column_dictionary.csv",
+                      "sha256":  "BE2AD9F5583F8D91BEF159F86B6FC179C4FB82B7A2504C07BD93FC15C3B4B768",
+                      "bytes":  27041,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\Train\\README.md",
+                      "sha256":  "C0A5693D1DF10E75CC58A9474F3497B57DBC3A9A710EA631D5EBE94B79E0B70D",
+                      "bytes":  7801,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Data\\bls_deep_sea_freight_ppi_monthly_1988-06_to_2026-08.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\Data\\bls_deep_sea_freight_ppi_monthly_1988-06_to_2026-08.csv",
+                      "sha256":  "C93BADC8513E232E83C1B8BDB8843A282BC1CCAE7D93A5CBAAF339863E9070D6",
+                      "bytes":  8754,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Data\\world_bank_pink_sheet_monthly_1960-01_to_2026-09.xlsx",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model C\\Data\\world_bank_pink_sheet_monthly_1960-01_to_2026-09.xlsx",
+                      "sha256":  "EA1C350827878EA3BBE30E3CDA16A13FD3BD5B409B8458940DC94A36B5A33154",
+                      "bytes":  586099,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\app.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\app.py",
+                      "sha256":  "6D9FBA3368D9587D498EDF12EAA8E2579C237F905E2F6F3F20BAE8CD6BACA91E",
+                      "bytes":  13668,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\README.md",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\README.md",
+                      "sha256":  "E33FE111B582C48FCD615968F6F7D755C7093BCA74709BA0C9C148C968D73A90",
+                      "bytes":  2731,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\START_UI.cmd",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\START_UI.cmd",
+                      "sha256":  "746346E5205E29E1BF5BBBCAA4635DCBAC4B7BC82E731828B947E930BA90CC9C",
+                      "bytes":  109,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\test_app.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\test_app.py",
+                      "sha256":  "979F5C02DD6B3B2476854D0D491B2050017C130455CBF45D1A0BB3ACC8B31CEF",
+                      "bytes":  3574,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\browser_qa.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\browser_qa.json",
+                      "sha256":  "66EDD6A815A5A2FEB0850A97D914FFED5BDA96B8B17FE5C8D92183A61B3C88B6",
+                      "bytes":  343,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\desktop.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\desktop.png",
+                      "sha256":  "81FD76832872A0738B19B980E2A6336AA75B1FA08AA318459EB16651913CB6BD",
+                      "bytes":  663681,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\desktop_overview.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\desktop_overview.png",
+                      "sha256":  "467935971F1D93CB5569D3977F3A823E4897CD95C2F902173A41403A23480C84",
+                      "bytes":  369242,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\example_live_predictions.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\example_live_predictions.csv",
+                      "sha256":  "E786A714B7C1473A4A20E983BED5C0FD57EB0462C5501715E24C221838801B5B",
+                      "bytes":  6932,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\example_live_response.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\example_live_response.json",
+                      "sha256":  "04D3D199B3F04ABC8F0EC496316AC3A67AF5C74AFCA92267D48EAC02A6D4E2BA",
+                      "bytes":  9894,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\mobile.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\mobile.png",
+                      "sha256":  "B4A7FAB724DBA6F1550D055C4677DE7195686AE50A9B43E79029824FBE98E689",
+                      "bytes":  431483,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\mobile_overview.png",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\mobile_overview.png",
+                      "sha256":  "DED5C91021D7C0D5FD99A3C09B7061646EC1449FCBCCDB85990E851C7BABE182",
+                      "bytes":  112192,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\results\\verification.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\results\\verification.json",
+                      "sha256":  "0264304F6EFAA8725B5001B6EF05A40F1A24C3056CF05A1EB9FD17FA3991F2F5",
+                      "bytes":  3722,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\ui\\app.js",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\ui\\app.js",
+                      "sha256":  "902248929BE2D4E99B1C13B1E8AC287096C5B9359F711616D297540020D64528",
+                      "bytes":  8661,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\ui\\index.html",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\ui\\index.html",
+                      "sha256":  "83871BE991344FF0365210B6F823AB69296192B3674A0F41864CCCB510856347",
+                      "bytes":  4846,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\ui\\style.css",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\ui\\style.css",
+                      "sha256":  "CBD2CC8EBAAEBBFF2BBBAF06D20E9AB12ED4F1BFFEF6B135DADE51F5ED4D55D6",
+                      "bytes":  4476,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\__pycache__\\app.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\__pycache__\\app.cpython-312.pyc",
+                      "sha256":  "DDE9E25881F37BA4D18F999D6CF89CE161BD692C5B0D315B2E4A55B5975F2652",
+                      "bytes":  23209,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Combined Models A B C Prediction UI\\__pycache__\\test_app.cpython-312.pyc",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Combined Models A B C Prediction UI\\__pycache__\\test_app.cpython-312.pyc",
+                      "sha256":  "E47DCFFD52C0B958F0C019B96B75540D15DFF72403A51F61277F38120788FED7",
+                      "bytes":  7478,
+                      "role":  "Complete package/dependency folder"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\TRAIL CODES\\production_v3\\code\\generate_model_a_response.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\TRAIL CODES\\production_v3\\code\\generate_model_a_response.py",
+                      "sha256":  "7B2C40FD56877B53CD87609478083EA20A77468AC3F0D248DFEACA937E784261",
+                      "bytes":  6863,
+                      "role":  "Required inference/feature dependency"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\train_model_b_improved_accuracy.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\train_model_b_improved_accuracy.py",
+                      "sha256":  "BE1B90A2B2354B74D3489D1CAD6B7B9E82FA319ECA7F179DBBE801C60DF9E587",
+                      "bytes":  47791,
+                      "role":  "Required inference/feature dependency"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\results\\experiment_manifest.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\improve accuracy\\results\\experiment_manifest.json",
+                      "sha256":  "AD52237AE7D6CACAB3408850532A4ACC22FAF72D4C3C97D1F788AA34649B04DA",
+                      "bytes":  6363,
+                      "role":  "Required inference/feature dependency"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\results\\model_manifest.json",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\results\\model_manifest.json",
+                      "sha256":  "3642A547DA9BD930C66CD1617A10D12F5F0E8697073C502EEA3EC007A891E78B",
+                      "bytes":  2503,
+                      "role":  "Required inference/feature dependency"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\results\\evaluation_metrics.csv",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\Training Titanium Model B\\results\\evaluation_metrics.csv",
+                      "sha256":  "C0AD18A88A025AF4E730FED38C73AC63A8CD1AA89A744B6936E24CEBF21DA7AC",
+                      "bytes":  1488,
+                      "role":  "Required inference/feature dependency"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\TRAIL CODES\\improved_v2\\code\\train_titanium_model_a_improved_v2.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\improved_v2\\code\\train_titanium_model_a_improved_v2.py",
+                      "sha256":  "45EB1626ABA81E2487F75FEAA689C50321FBDD2120F30641DC4000DFDD82BD60",
+                      "bytes":  17928,
+                      "role":  "V6 training engine dependency at its expected relative path"
+                  },
+                  {
+                      "source":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\TRAIL CODES\\code\\train_titanium_model_a_eruc.py",
+                      "destination":  "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Ready to go- Model Titanium ABC\\training titanium model A\\code\\train_titanium_model_a_eruc.py",
+                      "sha256":  "0EDCEA6518B053C65D29C1CACEF6DDECAAE8EE3B07D87C41516377237B8648EB",
+                      "bytes":  60075,
+                      "role":  "V6 base training engine dependency at its expected relative path"
+                  }
+              ]
+}

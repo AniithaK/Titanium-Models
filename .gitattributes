@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.cmd text eol=crlf
+# Preserve source/evidence byte hashes across Windows/Linux checkouts.
+*.csv -text
+*.json -text
+*.joblib -text
+*.pdf -text
+*.png -text
+*.xlsx -text

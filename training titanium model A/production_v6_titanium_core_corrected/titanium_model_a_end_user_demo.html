@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Titanium Price Outlook | Model A</title>
+  <style>
+    :root {
+      --ink: #12313a;
+      --muted: #60757a;
+      --paper: #fbfaf4;
+      --panel: #fffef9;
+      --line: #d9d6c8;
+      --teal: #087f83;
+      --teal-soft: #dceeed;
+      --orange: #d35d28;
+      --orange-soft: #f8e4d8;
+      --green: #27845c;
+      --red: #b74337;
+      --shadow: 0 18px 45px rgba(18, 49, 58, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 8% 0%, rgba(211, 93, 40, 0.11), transparent 32rem),
+        radial-gradient(circle at 95% 12%, rgba(8, 127, 131, 0.14), transparent 38rem),
+        #eef1ec;
+      font-family: "Aptos", "Segoe UI", sans-serif;
+    }
+
+    button, select { font: inherit; }
+    button { cursor: pointer; }
+
+    .shell { max-width: 1440px; margin: 0 auto; padding: 26px; }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 18px 22px;
+      border: 1px solid rgba(18, 49, 58, 0.12);
+      background: rgba(255, 254, 249, 0.83);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+    }
+
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand-mark {
+      width: 44px; height: 44px; display: grid; place-items: center;
+      color: white; font: 700 18px "Bahnschrift", sans-serif;
+      background: linear-gradient(145deg, var(--ink), var(--teal));
+      border-radius: 4px 15px 4px 15px;
+    }
+    .brand-name { font: 700 17px "Bahnschrift", sans-serif; letter-spacing: .04em; }
+    .brand-sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
+    .status {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 12px; color: #6f361e; background: var(--orange-soft);
+      border: 1px solid #e8b99f; font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--orange); }
+
+    .hero {
+      display: grid; grid-template-columns: 1.25fr .75fr; gap: 28px;
+      margin: 26px 0; padding: 42px;
+      color: white; background: linear-gradient(125deg, #102f38 0%, #0a555c 70%, #087f83 100%);
+      box-shadow: var(--shadow); position: relative; overflow: hidden;
+    }
+    .hero::after {
+      content: ""; position: absolute; width: 350px; height: 350px; right: -160px; top: -170px;
+      border: 1px solid rgba(255,255,255,.25); border-radius: 50%; box-shadow: 0 0 0 55px rgba(255,255,255,.04);
+    }
+    .eyebrow { margin: 0 0 12px; color: #f3a079; font-weight: 800; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; }
+    h1, h2, h3 { font-family: "Georgia", serif; font-weight: 500; margin: 0; }
+    h1 { max-width: 780px; font-size: clamp(38px, 5vw, 72px); line-height: .98; }
+    .hero p { max-width: 700px; color: #d7e6e5; font-size: 17px; line-height: 1.65; }
+    .hero-meta { align-self: end; display: grid; grid-template-columns: 1fr 1fr; border: 1px solid rgba(255,255,255,.25); }
+    .hero-meta div { padding: 18px; border-right: 1px solid rgba(255,255,255,.2); }
+    .hero-meta div:last-child { border: 0; }
+    .hero-meta span { display: block; color: #aad0ce; font-size: 11px; text-transform: uppercase; letter-spacing: .12em; }
+    .hero-meta strong { display: block; margin-top: 8px; font-size: 18px; }
+
+    .grid { display: grid; grid-template-columns: 380px 1fr; gap: 24px; align-items: start; }
+    .panel { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); }
+    .control-panel { padding: 26px; position: sticky; top: 18px; }
+    .panel-title { font: 700 12px "Bahnschrift", sans-serif; color: var(--orange); letter-spacing: .16em; text-transform: uppercase; }
+    .control-panel h2 { font-size: 31px; margin: 8px 0 24px; }
+    label { display: block; margin: 18px 0 8px; font-size: 13px; font-weight: 750; }
+    select {
+      width: 100%; padding: 13px 12px; border: 1px solid #bbc7c4; color: var(--ink); background: white;
+      outline: none;
+    }
+    select:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(8,127,131,.12); }
+    .horizon-buttons { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .horizon-buttons button {
+      padding: 13px 7px; border: 1px solid #bbc7c4; color: var(--ink); background: white; font-weight: 800;
+    }
+    .horizon-buttons button.active { color: white; background: var(--teal); border-color: var(--teal); }
+    .primary {
+      width: 100%; margin-top: 24px; padding: 14px; border: 0; color: white; background: var(--orange);
+      font-weight: 800; letter-spacing: .03em;
+    }
+    .help { margin: 20px 0 0; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.55; }
+
+    .workspace { display: grid; gap: 24px; }
+    .forecast { padding: 30px; }
+    .forecast-head { display: flex; justify-content: space-between; gap: 22px; align-items: start; }
+    .forecast h2 { margin-top: 7px; font-size: 36px; }
+    .target-chip { padding: 9px 12px; background: var(--teal-soft); color: #07585c; font-size: 12px; font-weight: 800; }
+    .forecast-cards { display: grid; grid-template-columns: 1.25fr 1fr 1fr; gap: 12px; margin: 26px 0; }
+    .metric { padding: 20px; border: 1px solid var(--line); background: #faf8ef; }
+    .metric.featured { color: white; background: var(--ink); border-color: var(--ink); }
+    .metric span { display: block; color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .10em; text-transform: uppercase; }
+    .metric.featured span { color: #a9ccca; }
+    .metric strong { display: block; margin-top: 9px; font: 500 30px "Georgia", serif; }
+    .metric small { display: block; margin-top: 7px; color: var(--muted); }
+    .metric.featured small { color: #cae0df; }
+
+    .range-wrap { margin-top: 26px; }
+    .range-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; }
+    .range-track { height: 14px; position: relative; margin: 18px 9px 30px; background: #dfe7e3; border-radius: 12px; }
+    .range-inner { position: absolute; top: 0; bottom: 0; border-radius: 12px; background: linear-gradient(90deg, #83beb9, var(--teal)); }
+    .range-median { position: absolute; top: -8px; width: 3px; height: 30px; background: var(--orange); }
+    .range-median::after { content: "P50"; position: absolute; top: 33px; left: 50%; transform: translateX(-50%); color: var(--orange); font-size: 11px; font-weight: 800; }
+
+    .chart-panel { padding: 28px; }
+    .section-head { display: flex; justify-content: space-between; gap: 20px; align-items: end; margin-bottom: 22px; }
+    .section-head h2 { margin-top: 7px; font-size: 32px; }
+    .section-head p { margin: 0; color: var(--muted); font-size: 13px; }
+    .forecast-chart { width: 100%; height: 330px; display: block; overflow: visible; }
+    .axis { stroke: #cbd2cd; stroke-width: 1; }
+    .gridline { stroke: #e7e4d9; stroke-width: 1; }
+    .band { fill: rgba(8,127,131,.13); }
+    .line { fill: none; stroke: var(--teal); stroke-width: 4; }
+    .point { fill: var(--panel); stroke: var(--teal); stroke-width: 4; }
+    .point.active { fill: var(--orange); stroke: var(--orange); }
+    .svg-label { fill: var(--muted); font: 12px "Aptos", sans-serif; }
+    .svg-value { fill: var(--ink); font: 700 12px "Aptos", sans-serif; }
+
+    .performance-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .eval-card { padding: 23px; border: 1px solid var(--line); background: #faf8ef; }
+    .eval-card h3 { font-size: 23px; }
+    .eval-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; margin-top: 18px; align-items: center; }
+    .eval-row span { color: var(--muted); font-size: 13px; }
+    .eval-row strong { font-size: 16px; }
+    .badge { display: inline-block; margin-top: 18px; padding: 7px 10px; font-size: 11px; font-weight: 900; letter-spacing: .10em; }
+    .pass { color: #145c40; background: #dcefe5; }
+    .fail { color: #8b2b23; background: #f4dcd8; }
+    .research { color: #75541a; background: #f5e9ca; }
+    .bar { height: 8px; margin-top: 7px; background: #dde5e1; }
+    .bar > i { display: block; height: 100%; background: var(--teal); }
+
+    .detail-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 24px; }
+    .response, .guidance { padding: 28px; }
+    pre { margin: 20px 0 0; padding: 18px; overflow: auto; color: #d9eeee; background: #102f38; font: 12px/1.6 "Cascadia Mono", monospace; }
+    .copy { margin-top: 12px; border: 1px solid #aabbb7; padding: 9px 12px; color: var(--ink); background: white; font-weight: 700; }
+    .guidance ol { margin: 20px 0 0; padding-left: 22px; }
+    .guidance li { margin: 12px 0; line-height: 1.5; }
+    .note { margin-top: 20px; padding: 14px; border-left: 4px solid var(--orange); background: var(--orange-soft); font-size: 13px; line-height: 1.55; }
+
+    footer { margin: 26px 0 6px; color: var(--muted); font-size: 12px; text-align: center; }
+
+    @media (max-width: 980px) {
+      .hero, .grid, .detail-grid { grid-template-columns: 1fr; }
+      .control-panel { position: static; }
+      .hero-meta { align-self: auto; }
+    }
+    @media (max-width: 680px) {
+      .shell { padding: 12px; }
+      .topbar, .forecast-head, .section-head { align-items: flex-start; flex-direction: column; }
+      .hero { padding: 28px 22px; }
+      .forecast-cards, .performance-grid { grid-template-columns: 1fr; }
+      .forecast, .chart-panel, .response, .guidance { padding: 20px; }
+      .status { align-self: stretch; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">Ti</div>
+        <div><div class="brand-name">Titanium Model A</div><div class="brand-sub">UK import unit-value outlook</div></div>
+      </div>
+      <div class="status">Research demo - V6 corrected</div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Decision support interface</p>
+        <h1>See the price range, not just one number.</h1>
+        <p>Explore 3, 6 and 12-month titanium import unit-value forecasts in GBP per kg, with calibrated uncertainty and historical performance checks.</p>
+      </div>
+      <div class="hero-meta">
+        <div><span>Data through</span><strong>June 2026</strong></div>
+        <div><span>Forecast origin</span><strong>2026-06</strong></div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <aside class="panel control-panel">
+        <div class="panel-title">Forecast controls</div>
+        <h2>Choose an outlook</h2>
+        <label for="product">Titanium product</label>
+        <select id="product">
+          <option value="810820">HS 810820 - Unwrought and powders</option>
+          <option value="810890">HS 810890 - Bars, sheet and other articles</option>
+        </select>
+        <label>Forecast horizon</label>
+        <div class="horizon-buttons" id="horizonButtons">
+          <button class="active" data-h="3">3 months</button>
+          <button data-h="6">6 months</button>
+          <button data-h="12">12 months</button>
+        </div>
+        <button class="primary" id="loadForecast">View forecast</button>
+        <p class="help">This demo reads the saved V6 reference forecasts. In production, the same controls would call an inference service using the latest validated monthly input row.</p>
+      </aside>
+
+      <div class="workspace">
+        <section class="panel forecast">
+          <div class="forecast-head">
+            <div><div class="panel-title">Selected outlook</div><h2 id="forecastTitle"></h2></div>
+            <div class="target-chip" id="targetChip"></div>
+          </div>
+          <div class="forecast-cards">
+            <div class="metric featured"><span>Median forecast (P50)</span><strong id="p50"></strong><small id="change"></small></div>
+            <div class="metric"><span>Lower scenario (P05)</span><strong id="p05"></strong><small>5% lower-tail estimate</small></div>
+            <div class="metric"><span>Upper scenario (P95)</span><strong id="p95"></strong><small>95% upper-tail estimate</small></div>
+          </div>
+          <div class="range-wrap">
+            <div class="range-labels"><span id="rangeLow"></span><strong>90% forecast interval</strong><span id="rangeHigh"></span></div>
+            <div class="range-track"><div class="range-inner" id="rangeInner"></div><div class="range-median" id="rangeMedian"></div></div>
+          </div>
+        </section>
+
+        <section class="panel chart-panel">
+          <div class="section-head"><div><div class="panel-title">Forecast path</div><h2>Reference outlook by horizon</h2></div><p>P05-P95 interval and P50 forecast</p></div>
+          <svg id="forecastChart" class="forecast-chart" viewBox="0 0 820 330" role="img" aria-label="Forecast by horizon"></svg>
+        </section>
+
+        <section class="panel chart-panel">
+          <div class="section-head"><div><div class="panel-title">Historical evaluation</div><h2>How this selection performed</h2></div><p>Coverage target: at least 90%</p></div>
+          <div class="performance-grid">
+            <article class="eval-card">
+              <h3>2022-2023 disruption test</h3>
+              <div class="eval-row"><span>P05-P95 coverage</span><strong id="stressCoverage"></strong></div>
+              <div class="bar"><i id="stressBar"></i></div>
+              <div class="eval-row"><span>MIS versus baseline</span><strong id="stressMis"></strong></div>
+              <div class="badge" id="stressStatus"></div>
+            </article>
+            <article class="eval-card">
+              <h3>2024-2025 post-disruption</h3>
+              <div class="eval-row"><span>P05-P95 coverage</span><strong id="postCoverage"></strong></div>
+              <div class="bar"><i id="postBar"></i></div>
+              <div class="eval-row"><span>MIS versus baseline</span><strong id="postMis"></strong></div>
+              <div class="badge" id="postStatus"></div>
+            </article>
+          </div>
+          <div class="note" id="performanceNote"></div>
+        </section>
+
+        <section class="detail-grid">
+          <article class="panel response">
+            <div class="panel-title">Integration preview</div><h2 style="margin-top:8px;font-size:30px">Model response</h2>
+            <pre id="responseJson"></pre>
+            <button class="copy" id="copyJson">Copy JSON</button>
+          </article>
+          <article class="panel guidance">
+            <div class="panel-title">End-user workflow</div><h2 style="margin-top:8px;font-size:30px">How to use the result</h2>
+            <ol>
+              <li>Select the correct HS product category.</li>
+              <li>Choose the planning horizon that matches the decision.</li>
+              <li>Use P50 as the central planning estimate.</li>
+              <li>Use P05-P95 for risk and contingency planning.</li>
+              <li>Do not interpret the interval as a guaranteed price range.</li>
+            </ol>
+            <div class="note">Current status: suitable for demonstration and shadow monitoring. Prospective validation is required before production approval.</div>
+          </article>
+        </section>
+      </div>
+    </section>
+    <footer>Model A V6 titanium core corrected | Saved reference forecasts generated from data available through June 2026</footer>
+  </main>
+
+  <script>
+    const forecasts = {
+      "810820": {
+        product: "Titanium unwrought and powders",
+        origin: 10.92019155,
+        rows: {
+          3: { target: "2026-09", model: "linear_quantile", p05: 8.3005728641, p50: 12.6598845158, p95: 15.7656596289 },
+          6: { target: "2026-12", model: "adaptive_no_change", p05: 8.6626424861, p50: 10.92019155, p95: 14.4837178131 },
+          12: { target: "2027-06", model: "random_forest_distribution", p05: 8.4860965192, p50: 10.7770201778, p95: 13.1116193054 }
+        }
+      },
+      "810890": {
+        product: "Titanium bars, sheet, forgings and other articles",
+        origin: 47.30794908,
+        rows: {
+          3: { target: "2026-09", model: "elastic_net_residual", p05: 31.2629015265, p50: 50.8342854349, p95: 82.2818003959 },
+          6: { target: "2026-12", model: "linear_quantile", p05: 29.2204534412, p50: 50.7637530857, p95: 83.9316213662 },
+          12: { target: "2027-06", model: "elastic_net_residual", p05: 25.5960581224, p50: 53.0612136544, p95: 103.1928133994 }
+        }
+      }
+    };
+
+    const evaluations = {
+      stress: {
+        "810820": {3:{coverage:1,mis:.572174867,pass:true},6:{coverage:1,mis:.799080559,pass:true},12:{coverage:1,mis:.777170266,pass:null}},
+        "810890": {3:{coverage:.956521739,mis:.967108234,pass:true},6:{coverage:1,mis:.776888970,pass:true},12:{coverage:1,mis:.682802213,pass:null}}
+      },
+      post: {
+        "810820": {3:{coverage:.958333333,mis:.827545142,pass:true},6:{coverage:1,mis:.739529801,pass:true},12:{coverage:.75,mis:null,pass:null}},
+        "810890": {3:{coverage:1,mis:1.037083238,pass:false},6:{coverage:1,mis:.867355447,pass:true},12:{coverage:.75,mis:null,pass:null}}
+      }
+    };
+
+    let selectedHorizon = 3;
+    const productEl = document.getElementById("product");
+    const money = value => `GBP ${value.toFixed(2)}/kg`;
+    const percent = value => `${(value * 100).toFixed(1)}%`;
+    const monthName = value => new Date(`${value}-01T00:00:00`).toLocaleDateString("en-GB", {month:"long", year:"numeric"});
+
+    function evaluationStatus(item, horizon) {
+      if (horizon === 12 || item.pass === null) return {text:"RESEARCH HORIZON", cls:"research"};
+      return item.pass ? {text:"PASS", cls:"pass"} : {text:"REVIEW REQUIRED", cls:"fail"};
+    }
+
+    function updateEvaluation(prefix, item, horizon) {
+      document.getElementById(`${prefix}Coverage`).textContent = percent(item.coverage);
+      document.getElementById(`${prefix}Bar`).style.width = `${Math.min(item.coverage * 100, 100)}%`;
+      document.getElementById(`${prefix}Mis`).textContent = item.mis === null ? "Not comparable" : `${item.mis.toFixed(3)}x baseline`;
+      const status = evaluationStatus(item, horizon);
+      const badge = document.getElementById(`${prefix}Status`);
+      badge.textContent = status.text;
+      badge.className = `badge ${status.cls}`;
+    }
+
+    function drawChart(hs) {
+      const data = forecasts[hs];
+      const entries = [3,6,12].map(h => ({h, ...data.rows[h]}));
+      const svg = document.getElementById("forecastChart");
+      const min = Math.min(...entries.map(d => d.p05)) * .9;
+      const max = Math.max(...entries.map(d => d.p95)) * 1.06;
+      const x = h => ({3:150,6:410,12:700}[h]);
+      const y = value => 270 - ((value - min) / (max - min)) * 220;
+      let html = "";
+      for (let i=0;i<5;i++) {
+        const value = min + (max-min) * i/4;
+        const yy = y(value);
+        html += `<line class="gridline" x1="80" y1="${yy}" x2="780" y2="${yy}"/><text class="svg-label" x="70" y="${yy+4}" text-anchor="end">${value.toFixed(0)}</text>`;
+      }
+      html += `<line class="axis" x1="80" y1="270" x2="780" y2="270"/>`;
+      const upper = entries.map(d => `${x(d.h)},${y(d.p95)}`).join(" ");
+      const lower = entries.slice().reverse().map(d => `${x(d.h)},${y(d.p05)}`).join(" ");
+      html += `<polygon class="band" points="${upper} ${lower}"/>`;
+      html += `<polyline class="line" points="${entries.map(d => `${x(d.h)},${y(d.p50)}`).join(" ")}"/>`;
+      entries.forEach(d => {
+        const active = d.h === selectedHorizon ? " active" : "";
+        html += `<line x1="${x(d.h)}" y1="${y(d.p05)}" x2="${x(d.h)}" y2="${y(d.p95)}" stroke="#087f83" stroke-width="2"/>`;
+        html += `<circle class="point${active}" cx="${x(d.h)}" cy="${y(d.p50)}" r="7"/>`;
+        html += `<text class="svg-value" x="${x(d.h)}" y="${y(d.p50)-15}" text-anchor="middle">${money(d.p50)}</text>`;
+        html += `<text class="svg-label" x="${x(d.h)}" y="300" text-anchor="middle">H${d.h} | ${d.target}</text>`;
+      });
+      svg.innerHTML = html;
+    }
+
+    function render() {
+      const hs = productEl.value;
+      const group = forecasts[hs];
+      const row = group.rows[selectedHorizon];
+      const delta = (row.p50 / group.origin) - 1;
+      document.getElementById("forecastTitle").textContent = `HS ${hs} | ${group.product}`;
+      document.getElementById("targetChip").textContent = `${selectedHorizon}-month target: ${monthName(row.target)}`;
+      document.getElementById("p50").textContent = money(row.p50);
+      document.getElementById("p05").textContent = money(row.p05);
+      document.getElementById("p95").textContent = money(row.p95);
+      document.getElementById("change").textContent = `${delta >= 0 ? "+" : ""}${(delta*100).toFixed(1)}% versus origin value ${money(group.origin)}`;
+      document.getElementById("rangeLow").textContent = money(row.p05);
+      document.getElementById("rangeHigh").textContent = money(row.p95);
+      const span = row.p95 - row.p05;
+      document.getElementById("rangeInner").style.cssText = "left:0%;right:0%";
+      document.getElementById("rangeMedian").style.left = `${((row.p50-row.p05)/span)*100}%`;
+
+      updateEvaluation("stress", evaluations.stress[hs][selectedHorizon], selectedHorizon);
+      updateEvaluation("post", evaluations.post[hs][selectedHorizon], selectedHorizon);
+      const post = evaluations.post[hs][selectedHorizon];
+      let note;
+      if (selectedHorizon === 12) note = "The post-disruption H12 window has only 18 completed targets out of 24 expected origins. Treat H12 as a research outlook until more outcomes mature.";
+      else if (post.pass) note = "This selected horizon meets the historical coverage requirement and its interval score beats the no-change baseline in both displayed evaluation periods.";
+      else note = "Coverage is strong, but the post-disruption interval score is 3.7% worse than the no-change baseline. The central forecast remains useful for demonstration, while interval calibration needs monitoring.";
+      document.getElementById("performanceNote").textContent = note;
+
+      const payload = {
+        model_version: "production_v6_titanium_core_corrected_research",
+        status: "research_demo",
+        hs_code: hs,
+        product: group.product,
+        forecast_origin: "2026-06",
+        target_month: row.target,
+        horizon_months: selectedHorizon,
+        selected_model: row.model,
+        currency: "GBP",
+        unit: "kg",
+        forecast: {p05: +row.p05.toFixed(4), p50: +row.p50.toFixed(4), p95: +row.p95.toFixed(4)}
+      };
+      document.getElementById("responseJson").textContent = JSON.stringify(payload, null, 2);
+      drawChart(hs);
+    }
+
+    document.querySelectorAll("#horizonButtons button").forEach(button => {
+      button.addEventListener("click", () => {
+        selectedHorizon = Number(button.dataset.h);
+        document.querySelectorAll("#horizonButtons button").forEach(b => b.classList.toggle("active", b === button));
+      });
+    });
+    document.getElementById("loadForecast").addEventListener("click", render);
+    productEl.addEventListener("change", render);
+    document.getElementById("copyJson").addEventListener("click", async event => {
+      try {
+        await navigator.clipboard.writeText(document.getElementById("responseJson").textContent);
+        event.target.textContent = "Copied";
+        setTimeout(() => event.target.textContent = "Copy JSON", 1400);
+      } catch (_) { event.target.textContent = "Copy unavailable"; }
+    });
+    render();
+  </script>
+</body>
+</html>

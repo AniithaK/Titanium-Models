@@ -1,0 +1,16 @@
+model,horizon_months,first_fully_disruption_window_recovered_asof,recovery_deadline,recovery_within_six_months,definition,h12_reporting_only
+extra_trees,3,2020-11-30,2020-07-31,False,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+extra_trees,6,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+extra_trees,12,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,True
+gradient_boosting,3,2020-11-30,2020-07-31,False,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+gradient_boosting,6,2021-02-28,2020-07-31,False,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+gradient_boosting,12,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,True
+no_change,3,2020-11-30,2020-07-31,False,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+no_change,6,2021-02-28,2020-07-31,False,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+no_change,12,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,True
+random_forest,3,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+random_forest,6,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+random_forest,12,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,True
+ridge,3,2021-02-28,2020-07-31,False,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+ridge,6,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,False
+ridge,12,2020-07-31,2020-07-31,True,Six latest completed target months as known at month-end; all six target months in/after Jan 2020; recovery deadline six months after Jan 2020 issue month-end.,True

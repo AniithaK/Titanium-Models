@@ -1,0 +1,23 @@
+{
+  "3": {
+    "name": "expanded_forest_ensemble",
+    "temperature": 1.25,
+    "frequency_weight": 0.0,
+    "feasible_classes": true,
+    "members": [
+      "rf_expanded",
+      "extra_expanded"
+    ],
+    "validation_pass": true
+  },
+  "6": {
+    "name": "original_extra_core",
+    "temperature": 0.75,
+    "frequency_weight": 0.0,
+    "feasible_classes": true,
+    "members": [
+      "original_extra_core"
+    ],
+    "validation_pass": true
+  }
+}

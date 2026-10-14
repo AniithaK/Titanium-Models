@@ -1,0 +1,152 @@
+{
+  "out_of_sample_checks": [
+    {
+      "model": "extra_trees",
+      "horizon_months": 3,
+      "records": 137,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "extra_trees",
+      "horizon_months": 6,
+      "records": 134,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "extra_trees",
+      "horizon_months": 12,
+      "records": 128,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "gradient_boosting",
+      "horizon_months": 3,
+      "records": 137,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "gradient_boosting",
+      "horizon_months": 6,
+      "records": 134,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "gradient_boosting",
+      "horizon_months": 12,
+      "records": 128,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "no_change",
+      "horizon_months": 3,
+      "records": 137,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "no_change",
+      "horizon_months": 6,
+      "records": 134,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "no_change",
+      "horizon_months": 12,
+      "records": 128,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "random_forest",
+      "horizon_months": 3,
+      "records": 137,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "random_forest",
+      "horizon_months": 6,
+      "records": 134,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "random_forest",
+      "horizon_months": 12,
+      "records": 128,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "ridge",
+      "horizon_months": 3,
+      "records": 137,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "ridge",
+      "horizon_months": 6,
+      "records": 134,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    },
+    {
+      "model": "ridge",
+      "horizon_months": 12,
+      "records": 128,
+      "quantile_order_verified": true,
+      "actual_target_alignment_verified": true,
+      "metrics_reproduced": true,
+      "training_timing_verified": true
+    }
+  ],
+  "portable_models_verified": 15,
+  "final_forecasts_reproduced": 15,
+  "calibration_scores_verified": true,
+  "same_calibration_method_for_baseline": true,
+  "source_data_unchanged": true,
+  "issue_date_test_count_verified": true,
+  "loss_curve_columns_verified": true,
+  "remaining_limitations": [
+    "Publication timing assumed",
+    "Current historical data may contain revisions",
+    "FBX comparison not provided",
+    "Nonexchangeable overlapping time-series targets mean conformal nominal coverage is not guaranteed"
+  ]
+}

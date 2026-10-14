@@ -1,0 +1,72 @@
+{
+  "source_file": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\data\\titanium_model_b_country_month_training_2010_2026.csv",
+  "sha256": "5c26d0343ed0a176ce6ff47c48e1d0f17655ecaa12d738fb3f1cf80fd7c9450d",
+  "rows": 1188,
+  "supplier_groups": [
+    "China",
+    "France",
+    "Japan",
+    "Other countries",
+    "Russian Federation",
+    "USA"
+  ],
+  "start": "2010-01-01",
+  "end": "2026-06-01",
+  "duplicate_rows": 0,
+  "share_sums_verified": true,
+  "target_alignment_verified": true,
+  "assumption_notes": [
+    "FX availability: month end +7 days",
+    "ERUC availability: month end +31 days",
+    "Trade availability inherited as an assumption",
+    "Country weights reconstructed from upstream shares and HS weights"
+  ],
+  "outstanding_specification_gaps": [
+    "UN Comtrade rather than requested HMRC",
+    "No 2005-2009 history",
+    "Nickel/aluminium benchmark inputs absent under existing source restriction",
+    "Country membership hardcoded upstream; complete raw-partner selection requires audit"
+  ],
+  "thresholds": {
+    "collapse_upper": -0.1446075178264113,
+    "fall_upper": -0.022944922950439307,
+    "stable_upper": 0.02088710731068383,
+    "source_start": "2010-01",
+    "source_end": "2021-06",
+    "requested_start_unavailable": "2005-01",
+    "sample_rows": 810
+  },
+  "prospective_holdout_required": true,
+  "test_interpretation": "Historical periods were examined in prior experiments. New selection excludes test data, but these are reused historical tests, not a new prospective holdout.",
+  "upstream_reconstruction_reconciled": true,
+  "reconstruction_differences": [
+    {
+      "country_key": "china",
+      "max_difference_kg": 4.873008583672345e-05
+    },
+    {
+      "country_key": "france",
+      "max_difference_kg": 0.00014037732034921646
+    },
+    {
+      "country_key": "japan",
+      "max_difference_kg": 4.966708365827799e-05
+    },
+    {
+      "country_key": "other",
+      "max_difference_kg": 0.0021399259567260742
+    },
+    {
+      "country_key": "russia",
+      "max_difference_kg": 4.857886233367026e-05
+    },
+    {
+      "country_key": "usa",
+      "max_difference_kg": 0.0004861613269895315
+    }
+  ],
+  "russia_disruption_collapse_labels": {
+    "h3": 0,
+    "h6": 0
+  }
+}

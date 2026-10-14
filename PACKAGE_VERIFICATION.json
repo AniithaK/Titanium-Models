@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "reference_forecast_values": 118,
+  "api_integration_tests": 5,
+  "retained_joblib_files_verified_unchanged": 19,
+  "a_training_engines_package_local": true,
+  "retrained": false,
+  "limitations": [
+    "Fresh environment installation not tested",
+    "Public data redistribution requires dataset-specific review",
+    "Research/demo, not production approved"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "verification": {
+    "passed": true,
+    "numeric_checks": 118,
+    "method": "Live artifact inference matches previously saved reference forecasts",
+    "note": "Numerical reproduction does not establish future forecast accuracy."
+  },
+  "suppliers": [
+    {
+      "country_key": "china",
+      "country": "China"
+    },
+    {
+      "country_key": "france",
+      "country": "France"
+    },
+    {
+      "country_key": "japan",
+      "country": "Japan"
+    },
+    {
+      "country_key": "other",
+      "country": "Other countries"
+    },
+    {
+      "country_key": "russia",
+      "country": "Russian Federation"
+    },
+    {
+      "country_key": "usa",
+      "country": "USA"
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "A 810820",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\models\\titanium_model_a_corrected_core_hs810820_selected_bundle.joblib",
+      "sha256": "4e6a880a6c5d4c5463abddce87fa2adf929e2b688e3af28811b494aefba9c133"
+    },
+    {
+      "name": "A 810890",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\training titanium model A\\production_v6_titanium_core_corrected\\models\\titanium_model_a_corrected_core_hs810890_selected_bundle.joblib",
+      "sha256": "58ceea3c88c1ff6e81fe704afb88f935bbc2534d6fe1e4a5506f48749995beb5"
+    },
+    {
+      "name": "B H3",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\models\\model_b_h3_calibrated.joblib",
+      "sha256": "2fb347bd1e68d714733757e78a47af797922c1514b295e8940d6de83c0e8dfae"
+    },
+    {
+      "name": "B H6",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model B\\improve accuracy\\probability_calibration_v2\\models\\model_b_h6_calibrated.joblib",
+      "sha256": "2e046ad5d7ad21c351cfb5f4bae1843e23a4fcd332728822f4044703334041a3"
+    },
+    {
+      "name": "C H3",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h3.joblib",
+      "sha256": "13d61978abbc00aabef11f745ad00dafa6ca14f01ccc57a13f3fe044c3fe03e9"
+    },
+    {
+      "name": "C H6",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\no_change\\model_c_h6.joblib",
+      "sha256": "a4203097187261dac741753d83118052caec4bc50bc2f4c740da84c187505aa5"
+    },
+    {
+      "name": "C H12",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\gradient_boosting\\model_c_h12.joblib",
+      "sha256": "fb30c4e89009b8818ab13434d2cdbc1e5cde4f28e5bcca6e301a11c905d96e0c"
+    },
+    {
+      "name": "C H3 retrospective comparator",
+      "path": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\training_v1\\models\\random_forest\\model_c_h3.joblib",
+      "sha256": "140ee06d349fb1dcb35b64fbfd807c4e635f335254e16f42f957687ab472a7c9"
+    }
+  ],
+  "source_dates": {
+    "A": "2026-06-01",
+    "B": "2026-06-01",
+    "C": "2026-08-01"
+  }
+}

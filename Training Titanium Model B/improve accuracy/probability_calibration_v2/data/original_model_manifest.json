@@ -1,0 +1,97 @@
+{
+  "model_name": "Titanium Model B country supply shift",
+  "model_version": "model_b_v1_permitted_sources_2010_2026",
+  "status": "research prototype",
+  "random_seed": 42,
+  "classes": [
+    "collapse",
+    "fall",
+    "stable",
+    "rise"
+  ],
+  "features": [
+    "country_share",
+    "log1p_country_quantity_kg",
+    "country_share_change_1m",
+    "country_share_change_3m",
+    "country_share_change_6m",
+    "country_share_change_12m",
+    "country_quantity_log1p_change_1m",
+    "country_quantity_log1p_change_3m",
+    "country_quantity_log1p_change_6m",
+    "country_quantity_log1p_change_12m",
+    "total_import_log_change_1m",
+    "total_import_log_change_3m",
+    "total_import_log_change_6m",
+    "total_import_log_change_12m",
+    "titanium_price_log_change_1m",
+    "titanium_price_log_change_3m",
+    "titanium_price_log_change_6m",
+    "titanium_price_log_change_12m",
+    "fx_log_change_1m",
+    "fx_log_change_3m",
+    "fx_log_change_6m",
+    "fx_log_change_12m",
+    "eruc_log_change_1m",
+    "eruc_log_change_3m",
+    "eruc_log_change_6m",
+    "eruc_log_change_12m",
+    "supplier_hhi_weight",
+    "top_supplier_share_weight",
+    "partner_count_total",
+    "month_sin",
+    "month_cos",
+    "eu_collection_change_flag",
+    "weight_reconstructed_any_flag",
+    "world_weight_estimated_any_flag",
+    "country_key"
+  ],
+  "source_policy": [
+    "UN Comtrade",
+    "Bank of England FX",
+    "ONS ERUC/PPI"
+  ],
+  "excluded_sources": [
+    "USGS",
+    "World Bank cross-metal prices"
+  ],
+  "latest_origin": "2026-06",
+  "horizons": {
+    "h3": {
+      "candidate": "random_forest",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 140,
+        "max_depth": 8,
+        "min_samples_leaf": 4
+      },
+      "temperature": 1.15,
+      "training_rows": 1098,
+      "reporting_only": false
+    },
+    "h6": {
+      "candidate": "extra_trees",
+      "family": "extra_trees",
+      "params": {
+        "n_estimators": 160,
+        "max_depth": 10,
+        "min_samples_leaf": 3
+      },
+      "temperature": 0.75,
+      "training_rows": 1080,
+      "reporting_only": false
+    },
+    "h12": {
+      "candidate": "random_forest",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 140,
+        "max_depth": 8,
+        "min_samples_leaf": 4
+      },
+      "temperature": 1.35,
+      "training_rows": 1044,
+      "reporting_only": true
+    }
+  }
+}

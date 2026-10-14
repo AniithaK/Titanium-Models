@@ -1,0 +1,110 @@
+{
+  "prepared_on_client_date": "2026-10-09",
+  "output_file": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Train\\model_c_freight_training_2005_2026.csv",
+  "rows": 260,
+  "columns": 67,
+  "start": "2005-01",
+  "end": "2026-08",
+  "feature_columns": [
+    "freight_log_change_1m",
+    "freight_log_change_2m",
+    "freight_log_change_3m",
+    "freight_log_change_6m",
+    "freight_log_change_12m",
+    "freight_volatility_6m",
+    "freight_volatility_12m",
+    "brent_log_change_1m"
+  ],
+  "quantile_outputs_required": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "horizons": [
+    3,
+    6,
+    12
+  ],
+  "h12_reporting_only": true,
+  "target_definition": "ln(freight_index[t+h] / freight_index[t]); t is reference month of latest included observation",
+  "split_basis": "origin reference month; forecast issue dates recorded separately",
+  "requested_split": {
+    "initial_training": "2005-2014",
+    "validation": "2015-2019",
+    "disruption_test": "2020-2021",
+    "post_disruption": "2022 onward"
+  },
+  "origin_period_counts": {
+    "initial_training": 120,
+    "validation": 60,
+    "post_disruption": 56,
+    "disruption_test": 24
+  },
+  "horizon_counts": {
+    "h3": {
+      "targets_observed": 257,
+      "initial_fit_rows": 118,
+      "validation_rows_with_known_pretest_targets": 56,
+      "disruption_origin_rows": 24,
+      "strict_point_in_time_verified_rows": 0
+    },
+    "h6": {
+      "targets_observed": 254,
+      "initial_fit_rows": 115,
+      "validation_rows_with_known_pretest_targets": 53,
+      "disruption_origin_rows": 24,
+      "strict_point_in_time_verified_rows": 0
+    },
+    "h12": {
+      "targets_observed": 248,
+      "initial_fit_rows": 109,
+      "validation_rows_with_known_pretest_targets": 47,
+      "disruption_origin_rows": 24,
+      "strict_point_in_time_verified_rows": 0
+    }
+  },
+  "warmup_policy": "2004 used only to construct lag/volatility features. Export and labelled history start January 2005.",
+  "volatility_definition": "Population standard deviation (ddof=0) of latest 6/12 monthly freight log returns, including current month; not annualized.",
+  "availability_policy": "ASSUMED: observations usable at end of following calendar month; not a verified release calendar.",
+  "prototype_status": "Prepared research snapshot. Verified historical release dates and revision vintages remain incomplete.",
+  "split_caution": "User selected 2015-2019 main validation; specification mentions 2012-2019. Optional early-backtest flag retains 2012-2014.",
+  "selection_freeze_date": "2020-01-01",
+  "remaining_inputs": [
+    "Historical release-date records / vintages",
+    "FBX 2020-2021 comparison data"
+  ],
+  "sources": [
+    {
+      "source": "BLS/FRED freight index",
+      "file": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Data\\bls_deep_sea_freight_ppi_monthly_1988-06_to_2026-08.csv",
+      "url": "https://fred.stlouisfed.org/series/PCU483111483111",
+      "sha256": "c93badc8513e232e83c1b8bdb8843a282bc1ccae7d93a5cbaaf339863e9070d6",
+      "file_modified_utc": "2026-10-09T10:27:32.663632+00:00",
+      "download_date_verified": false,
+      "note": "File modification time is provenance metadata, not a verified download or historical publication date."
+    },
+    {
+      "source": "World Bank Brent",
+      "file": "C:\\Anitha\\SupplyChainEfficiency\\NEW SCI PREDICTION TITANIUM\\TRAIN READY Processed data- Titanium 2010-2026\\Training Titanium Model C\\Data\\world_bank_pink_sheet_monthly_1960-01_to_2026-09.xlsx",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154",
+      "file_modified_utc": "2026-10-09T11:24:28.105837+00:00",
+      "download_date_verified": false,
+      "note": "File modification time is provenance metadata, not a verified download or historical publication date."
+    }
+  ],
+  "verification": {
+    "raw_values_reconciled": true,
+    "month_gaps_checked": true,
+    "lag_features_recomputed": true,
+    "volatility_recomputed": true,
+    "future_targets_recomputed": true,
+    "selection_cutoff_checked": true,
+    "future_missing_targets_retained": true,
+    "source_csv_not_modified": true
+  }
+}

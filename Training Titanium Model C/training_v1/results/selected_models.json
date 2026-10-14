@@ -1,0 +1,20 @@
+{
+  "3": {
+    "selected_model": "gradient_boosting",
+    "best_ml_candidate": "gradient_boosting",
+    "any_ml_validation_acceptance_pass": true,
+    "validation_only_selection": true
+  },
+  "6": {
+    "selected_model": "no_change",
+    "best_ml_candidate": "ridge",
+    "any_ml_validation_acceptance_pass": false,
+    "validation_only_selection": true
+  },
+  "12": {
+    "selected_model": "gradient_boosting",
+    "best_ml_candidate": "gradient_boosting",
+    "h12_reporting_only": true,
+    "selection_basis": "Family selected from H3/H6 validation MIS ratios only; H12 metrics excluded."
+  }
+}
