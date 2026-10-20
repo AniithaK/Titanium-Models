@@ -66,8 +66,8 @@
   },
   {
     "path": "Combined Models A B C Prediction UI/START_UI.cmd",
-    "bytes": 114,
-    "sha256": "3145d5fed74769dab0d26087c8fdf920fe37d5e36b8c4d1f60c7d57be985a2b9"
+    "bytes": 109,
+    "sha256": "746346e5205e29e1bf5bbbcaa4635dcbac4b7bc82e731828b947e930ba90cc9c"
   },
   {
     "path": "Combined Models A B C Prediction UI/test_app.py",
@@ -110,9 +110,24 @@
     "sha256": "7e8119bc3e691658792d394cea2e7e6a07e740770cb90bc3e103f6f413c8ed62"
   },
   {
+    "path": "Titanium_Model_A_Data_Training_and_Performance_Report.pdf",
+    "bytes": 1051715,
+    "sha256": "2511031ad17251af83914a59677526d3ebcc21967644d7ebc712abd1ea272774"
+  },
+  {
+    "path": "Titanium_Model_B_Data_Training_and_Performance_Report.pdf",
+    "bytes": 495943,
+    "sha256": "0473bc8981c79dd719c22f9e6a53eb7f6a58a725959244a3c5a3f62b20bd990e"
+  },
+  {
+    "path": "Titanium_Model_C_Data_Training_and_Performance_Report.pdf",
+    "bytes": 1998711,
+    "sha256": "bd2aa220944f03b1790762808fe7a032c3e8dac931281b614ab7112a218546f6"
+  },
+  {
     "path": "training titanium model A/code/train_titanium_model_a_eruc.py",
-    "bytes": 60074,
-    "sha256": "6606759820ddcbb380fcff3b3ff16c80279d7de7dccbe40076bfa37b3a8fdc28"
+    "bytes": 60075,
+    "sha256": "0edcea6518b053c65d29c1cacef6ddecaae8ee3b07d87c41516377237b8648eb"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/code/build_training_data_record_pdf.py",
@@ -126,8 +141,8 @@
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/code/engines/train_titanium_model_a_eruc.py",
-    "bytes": 60074,
-    "sha256": "6606759820ddcbb380fcff3b3ff16c80279d7de7dccbe40076bfa37b3a8fdc28"
+    "bytes": 60075,
+    "sha256": "0edcea6518b053c65d29c1cacef6ddecaae8ee3b07d87c41516377237b8648eb"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/code/engines/train_titanium_model_a_improved_v2.py",
@@ -156,8 +171,8 @@
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/documentation/MODEL_CARD.md",
-    "bytes": 2378,
-    "sha256": "210d7d57a6712979cbae5c3c1f4323827f4716241118d48640da2f7147493bc8"
+    "bytes": 2423,
+    "sha256": "dae9bc438225ece092007a63bec93ea8961982476e78674b347aba1c93589e68"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/documentation/titanium_model_a_v6_training_data_record.pdf",
@@ -191,8 +206,8 @@
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/README.md",
-    "bytes": 17822,
-    "sha256": "35d59caa8807e4060b16597f20e237486a1b59ca37d7d4712730243ea8744ba5"
+    "bytes": 18037,
+    "sha256": "c6d239676f3e4d17dcfb249548e1b61588030791dd567a80ec7fd04765426aef"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/requirements.txt",
@@ -266,8 +281,8 @@
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/RUN_TRAINING_V6.cmd",
-    "bytes": 154,
-    "sha256": "83a24f663acb09ada6bb0a3197bedb6bbe6d8036f88b323747637f10ed77375b"
+    "bytes": 148,
+    "sha256": "aa2d456bbec6fd3316b76f538e53ef1fe6373a48d3770e0f214a655e71af0af7"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/titanium_model_a_end_user_demo.html",
@@ -301,13 +316,13 @@
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_production_v6_titanium_core_corrected_dashboard.html",
-    "bytes": 1403449,
-    "sha256": "27eff0b880c70d270dd438acb2e65ff00438fe3f0e2c8d9b4a8e9f1ac062b4d3"
+    "bytes": 1403635,
+    "sha256": "f485c72fa61ce213a8713713cee571a8788e96769a4420ab1920213dbb06b4ad"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_v6_performance_dashboard.html",
-    "bytes": 1409479,
-    "sha256": "c70c1226c579afdf56e2352ab74cc9460d0d01c219e4786c709fa2d4f1c276a1"
+    "bytes": 1409520,
+    "sha256": "545bd5bc1b18ed0ad68beeba74b7cc2c4f387c2b070e800abc2ed3f73d8b8e9a"
   },
   {
     "path": "training titanium model A/production_v6_titanium_core_corrected/visualizations/titanium_model_a_v6_performance_dashboard_full_preview.png",
@@ -516,8 +531,8 @@
   },
   {
     "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/model_b_probability_improvement_dashboard.html",
-    "bytes": 1822484,
-    "sha256": "8c6912f4cec2106b11be2a56e27bccc5b0f7eb99878e17ea07dc115826aaa9f6"
+    "bytes": 1822768,
+    "sha256": "bd0497b4b59d9c2c93c343618e878d83e10f7bd8f5e85063560cfce4fed7ca66"
   },
   {
     "path": "Training Titanium Model B/improve accuracy/probability_calibration_v2/visualizations/probability_reliability.png",
@@ -886,8 +901,8 @@
   },
   {
     "path": "Training Titanium Model C/training_v1/visualizations/model_c_training_dashboard.html",
-    "bytes": 2739177,
-    "sha256": "c620bd1a62407894a424ddf54d1003c053b982910285b43cd2a01e1623dccdc2"
+    "bytes": 2739725,
+    "sha256": "c6373474d925df9f00288b2008b3bb0aabc51592c8e033322380514974ed2507"
   },
   {
     "path": "Training Titanium Model C/training_v1/visualizations/model_mis_comparison.png",
@@ -916,8 +931,8 @@
   },
   {
     "path": "VERIFY_PACKAGE.cmd",
-    "bytes": 110,
-    "sha256": "53475c96e72f9036a72743660f66dda84a1f8231ce77a1a86bdd5dc3c23cf709"
+    "bytes": 104,
+    "sha256": "9d3e99d1aced7999029722df7c23877276539c2d5c300ad4fe474d501fd39e88"
   },
   {
     "path": "verify_package.py",
